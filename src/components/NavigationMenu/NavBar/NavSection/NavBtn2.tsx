@@ -7,10 +7,11 @@ import type { BaseProps } from "@/types/base.types";
 interface SolutionConfig {
   name: string;
   slug: string;
-  name_vn: string;
+  name_vi: string;
   description: string;
   description_vn: string;
   image: string;
+  name_en: string;
 }
 
 interface NavBtn2Props extends BaseProps {
@@ -32,7 +33,7 @@ export const NavBtn2 = memo(function NavBtn2({
   solution,
 }: NavBtn2Props) {
   const path = `/solutions/${solution.slug}`;
-
+  console.log(lng);
   return (
     <li>
       <Link
@@ -47,7 +48,7 @@ export const NavBtn2 = memo(function NavBtn2({
         className="w-full flex flex-col justify-between relative p-3 rounded-md border border-transparent hover:text-violet-600 hover:border-purple-400"
       >
         <span className="font-bold lg:text-lg mb-1">
-          {lng === "vi" ? solution.name_vn : solution.name}
+          {lng === "vi" ? solution.name_vi : solution.name_en}
         </span>
         <span className="text-sm lg:text-base text-gray-800">
           {lng === "vi" ? solution.description_vn : solution.description}
