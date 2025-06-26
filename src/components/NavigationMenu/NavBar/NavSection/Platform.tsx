@@ -144,7 +144,7 @@ export default function PlatformNavSection({
                           className="text-sm lg:text-base font-medium block w-full text-center"
                           onClick={onCloseNav}
                         >
-                          {item.name}
+                          {lng === "vi" ? item.name_vn : item.name}
                         </Link>
                       </li>
                     );
