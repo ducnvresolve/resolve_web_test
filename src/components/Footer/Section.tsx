@@ -57,11 +57,7 @@ export default async function FooterSection({
               )}
             >
               <p className="text-sm hover:text-orange-600">
-                {t(
-                  `${section === "solutions" ? "about." : ""}${section}.${
-                    route.name
-                  }.title`
-                )}
+                {lng === "vi" ? route.name_vi : route.name_en}
               </p>
             </Link>
           </div>

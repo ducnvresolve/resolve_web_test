@@ -1,11 +1,11 @@
-"use client"
-import Link from "next/link"
-import { Mail, Phone, MapPin } from "lucide-react"
+"use client";
+import Link from "next/link";
+import { Mail, Phone, MapPin } from "lucide-react";
 import {
   IconFacebook,
   IconLinkedIn,
   IconYoutube,
-} from "@/components/Footer/Contact"
+} from "@/components/Footer/Contact";
 import {
   RESOLVE_EMAIL,
   RESOLVE_MOBILE,
@@ -16,9 +16,9 @@ import {
   RESOLVE_FACEBOOK_URL,
   RESOLVE_LINKEDIN_URL,
   RESOLVE_YOUTUBE_URL,
-} from "@/configs/brand.conf"
-import SubscribeEmail from "@/components/Form/SubscribeEmail"
-import type { BaseProps } from "@/types/base.types"
+} from "@/configs/brand.conf";
+import SubscribeEmail from "@/components/Form/SubscribeEmail";
+import type { BaseProps } from "@/types/base.types";
 
 export default function ContactInfo({ params: { lng, t } }: BaseProps) {
   return (
@@ -60,7 +60,7 @@ export default function ContactInfo({ params: { lng, t } }: BaseProps) {
           {lng === "en" ? RESOLVE_LOCATION_EN : RESOLVE_LOCATION_VI}
         </Link>
       </div>
-      <h2 className="font-bold text-xl md:text-2xl mt-6">
+      {/* <h2 className="font-bold text-xl md:text-2xl mt-6">
         {t["info.for-marketing"]}
       </h2>
       <div className="flex flex-row items-center gap-3">
@@ -73,7 +73,7 @@ export default function ContactInfo({ params: { lng, t } }: BaseProps) {
         >
           {RESOLVE_EMAIL_MARKETING}
         </Link>
-      </div>
+      </div> */}
       <h2 className="font-bold text-xl md:text-2xl mt-6">
         {t["info.subscribe-email"]}
       </h2>
@@ -108,5 +108,5 @@ export default function ContactInfo({ params: { lng, t } }: BaseProps) {
         </Link>
       </div>
     </section>
-  )
+  );
 }

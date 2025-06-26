@@ -62,7 +62,7 @@ export default function LangToggle({
                 : "hidden"
           }
           dangerouslySetInnerHTML={{
-            __html: lng === "en" ? html.en : html.vi,
+            __html: lng === "vi" ? html.en : html.vi,
           }}
         />
       );
@@ -78,10 +78,10 @@ export default function LangToggle({
         }
       >
         {text
-          ? lng === "en"
+          ? lng === "vi"
             ? text.en
             : text.vi
-          : lng === "en"
+          : lng === "vi"
             ? "Tiếng Việt"
             : "English"}
       </span>
@@ -93,20 +93,20 @@ export default function LangToggle({
       variant={"outline"}
       className={cn("p-2", className)}
       title={
-        lng === "en"
+        lng === "vi"
           ? "Chuyển ngôn ngữ sang tiếng Việt"
           : "Change language to English"
       }
       asChild
     >
       <Link
-        href={`${lng === "en" ? "/vi" : "/en"}${pathname?.substring(3)}${newSearchParams.toString() ? `?${newSearchParams.toString()}` : ""}`}
+        href={`${lng === "en" ? "/vi" : "/en"}${pathname?.substring(3)}`}
         className="flex flex-row items-center gap-2"
       >
         <img
           src={lng === "vi" ? "/images/flag-vi.svg" : "/images/flag-en.svg"}
           className="max-w-[25px]"
-          alt={lng === "vi" ? "flag-vi" : "flag-en"}
+          alt={lng === "vi" ? "flag-en" : "flag-vi"}
         />
         {displayContent()}
       </Link>

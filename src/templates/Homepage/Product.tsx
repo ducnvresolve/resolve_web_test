@@ -1,19 +1,22 @@
-"use client"
+"use client";
 
-import React from "react"
-import Link from "next/link"
-import { useInView } from "react-intersection-observer"
-import { PLATFORM_LIST } from "@/configs/routes.conf"
-import { Button } from "@/components/Button"
-import type { BaseProps } from "@/types/base.types"
+import React from "react";
+import Link from "next/link";
+import { useInView } from "react-intersection-observer";
+import { PLATFORM_LIST_2 as PLATFORM_LIST } from "@/configs/routes.conf";
+import { Button } from "@/components/Button";
+import type { BaseProps } from "@/types/base.types";
 
 export default function Product({ params: { t, lng } }: BaseProps) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
-  })
+  });
   return (
-    <section className="w-full bg-white flex flex-col items-center py-[100px] animate-slideup-very-delayed">
+    <section
+      id="product"
+      className="w-full bg-white flex flex-col items-center py-[100px] animate-slideup-very-delayed"
+    >
       <div
         ref={ref}
         className={`
@@ -22,13 +25,13 @@ export default function Product({ params: { t, lng } }: BaseProps) {
         `}
       >
         <h2 className="font-bold text-xl md:text-3xl text-purple-700">
-          <Link href="/platform">{t["platform.title"]}</Link>
+          {t["platform.title"]}
         </h2>
         <div className="w-full max-w-screen-xl flex flex-col gap-[100px]">
           {[...Array(3).keys()].map((i: number) => {
             const name = (PLATFORM_LIST[i].path as string)
               .replace("/platform/", "")
-              .trim()
+              .trim();
             return (
               <div
                 key={i}
@@ -45,13 +48,9 @@ export default function Product({ params: { t, lng } }: BaseProps) {
                   <span className="absolute top-[-70px] lg:top-[-120px] text-[120px] lg:text-[200px] text-purple-200 font-mono select-none">
                     {i + 1}
                   </span>
-                  <Button variant={"link"} className="w-fit p-0" asChild>
-                    <h3 className="w-fit font-bold text-xl md:text-[32px] md:leading-10 mb-3 z-[2] hover:text-purple-600 after:bg-purple-600 after:h-[2px] after:bottom-[-4px]">
-                      <Link href={`/${lng}/platform/${name}`}>
-                        {t[`platform.${i + 1}.title`]}
-                      </Link>
-                    </h3>
-                  </Button>
+                  <h3 className="w-fit font-bold text-xl md:text-[32px] md:leading-10 mb-3 z-[2] hover:text-purple-600 after:bg-purple-600 after:h-[2px] after:bottom-[-4px] text-purple-700">
+                    {t[`platform.${i + 1}.title`]}
+                  </h3>
                   <p className="text-justify md:text-lg leading-7 md:leading-8 mb-3 z-[2]">
                     {t[`platform.${i + 1}.description`]}
                   </p>
@@ -109,10 +108,10 @@ export default function Product({ params: { t, lng } }: BaseProps) {
                   />
                 </div>
               </div>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
+  );
 }

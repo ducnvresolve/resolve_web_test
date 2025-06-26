@@ -14,8 +14,8 @@ export default function Footer({ params }: BaseProps) {
             <FooterSection lng={params.lng} section={"solutions"} />
           </div>
           <div className="w-fit flex flex-col gap-6">
-            <FooterSection lng={params.lng} section={"platform"} />
             <FooterSection lng={params.lng} section={"resources"} />
+            <FooterSection lng={params.lng} section={"platform"} />
           </div>
         </div>
       </div>

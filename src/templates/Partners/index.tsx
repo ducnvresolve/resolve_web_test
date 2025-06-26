@@ -1,11 +1,12 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import PageHeader from "@/components/PageHeader"
-import CtaSection from "@/components/CtaSection"
-import type { BaseProps } from "@/types/base.types"
+import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
+import CtaSection from "@/components/CtaSection";
+import type { BaseProps } from "@/types/base.types";
 
 export default function Partners({ params: { lng, t } }: BaseProps) {
+  console.log(t, lng);
   const partnerLogo = [
     <Link
       href="https://sisense.com"
@@ -14,6 +15,18 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
     >
       <img
         src={"/images/sisense-logo.png"}
+        className="h-[60px] select-none"
+        loading="lazy"
+        alt="sisense-company"
+      />
+    </Link>,
+    <Link
+      href="#"
+      target={"_blank"}
+      className="w-full flex items-center justify-center p-6"
+    >
+      <img
+        src={"/assets/images/Google_2015_logo.svg.webp"}
         className="h-[60px] select-none"
         loading="lazy"
         alt="sisense-company"
@@ -31,19 +44,19 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
         alt="sisense-company"
       />
     </Link>,
-       <Link
-       href="https://cloudaz.io/"
-       target={"_blank"}
-       className="w-[500px] flex items-center justify-center p-6"
-     >
+    <Link
+      href="https://cloudaz.io/"
+      target={"_blank"}
+      className="w-[500px] flex items-center justify-center p-6"
+    >
       <img
         src={"/images/cloudAZ.png"}
         className="h-[60px] select-none"
         loading="lazy"
         alt="sisense-company"
       />
-  </Link>,
-  ]
+    </Link>,
+  ];
 
   return (
     <main className="flex flex-col items-center bg-white">
@@ -53,7 +66,7 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
           <h2 className="font-bold text-xl lg:text-3xl text-purple-700 -mb-6">
             {t["partners.title"]}
           </h2>
-          {[...Array(3).keys()].map((i: number) => (
+          {[...Array(4).keys()].map((i: number) => (
             <div
               key={i + 1}
               className="flex flex-col-reverse items-start gap-6"
@@ -120,10 +133,36 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
                 />
               </Link>
             </div>
+            <div className="w-full md:w-[32%] bg-white p-2 h-[80px] sm:h-[80px] md:h-[100px] lg:h-[120px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
+              <Link
+                href="https://ciovn.org"
+                target={"_blank"}
+                className="w-full h-full flex items-center justify-center"
+              >
+                <img
+                  src="/images/partners/cioVN.png"
+                  className="max-h-full max-w-full object-contain select-none"
+                  alt="cioVN"
+                />
+              </Link>
+            </div>
+            <div className="w-full md:w-[32%] bg-white p-2 h-[80px] sm:h-[80px] md:h-[100px] lg:h-[120px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
+              <Link
+                href="https://hanoiba.org.vn/"
+                target={"_blank"}
+                className="w-full h-full flex items-center justify-center"
+              >
+                <img
+                  src="/images/partners/hanoiBA.png"
+                  className="max-h-full max-w-full object-contain select-none"
+                  alt="hanoiBA"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
       <CtaSection params={{ lng, t }} />
     </main>
-  )
+  );
 }

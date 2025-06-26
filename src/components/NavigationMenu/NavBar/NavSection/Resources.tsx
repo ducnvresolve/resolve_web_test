@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { Paperclip } from "lucide-react"
+import Link from "next/link";
+import { Paperclip } from "lucide-react";
 import {
   IconFacebook,
   IconLinkedIn,
   IconYoutube,
-} from "@/components/Footer/Contact"
+} from "@/components/Footer/Contact";
 import {
   RESOLVE_FACEBOOK_URL,
   RESOLVE_LINKEDIN_URL,
   RESOLVE_YOUTUBE_URL,
-} from "@/configs/brand.conf"
-import { RESOURCE_LIST } from "@/configs/routes.conf"
-import { Button } from "@/components/Button"
-import NavBtn from "./NavBtn"
-import type { BaseProps, BaseRecord } from "@/types/base.types"
+} from "@/configs/brand.conf";
+import { RESOURCE_LIST } from "@/configs/routes.conf";
+import { Button } from "@/components/Button";
+import { NavBtn } from "./NavBtn";
+import type { BaseProps, BaseRecord } from "@/types/base.types";
 
 export default function ResourcesNavSection({ params: { lng, t } }: BaseProps) {
   const FEATURE_DOCS: BaseRecord<any>[] = [
@@ -33,7 +33,7 @@ export default function ResourcesNavSection({ params: { lng, t } }: BaseProps) {
         vi: "Vai trò của data warehouse trong Business Analytics và Business Intelligence",
       },
     },
-  ]
+  ];
 
   return (
     <div className="w-full max-w-screen-2xl">
@@ -138,5 +138,5 @@ export default function ResourcesNavSection({ params: { lng, t } }: BaseProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }

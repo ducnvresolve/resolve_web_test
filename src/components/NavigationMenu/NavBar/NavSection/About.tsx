@@ -5,8 +5,9 @@ import Link from "next/link";
 import { ABOUT_LIST, SOLUTION_LIST } from "@/configs/routes.conf";
 import { Skeleton } from "@/components/Skeleton";
 import { Button } from "@/components/Button";
-import NavBtn from "./NavBtn";
+import { NavBtn } from "./NavBtn";
 import type { BaseProps } from "@/types/base.types";
+import { NavBtn2 } from "./NavBtn2";
 
 export default function AboutNavSection({ params: { lng, t } }: BaseProps) {
   return (
@@ -53,17 +54,12 @@ export default function AboutNavSection({ params: { lng, t } }: BaseProps) {
             {t["about.what-we-do"]}
           </p>
           <ul className="w-full flex flex-col gap-3">
-            {[...Array(SOLUTION_LIST.length).keys()].map((i: number) => (
-              <NavBtn
-                key={i}
-                params={{ lng, t }}
-                name={`about.solutions.${SOLUTION_LIST[i].name}`}
-                path={SOLUTION_LIST[i].path!}
-              />
+            {SOLUTION_LIST.map((item: any, i: number) => (
+              <NavBtn2 key={i} params={{ lng, t }} solution={item} />
             ))}
           </ul>
           <Button variant={"link"} className="w-fit p-0 m-3 mt-6" asChild>
-            <Link href="/solutions">
+            <Link href="/#solutions">
               &#10551;&nbsp;<i>{t["about.solutions.see-all-solutions"]}</i>
             </Link>
           </Button>

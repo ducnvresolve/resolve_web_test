@@ -1,10 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { memo } from "react";
 import Link from "next/link";
 import type { NavbtnProps } from "@/types/route.types";
 
-export default function NavBtn({
+export const NavBtn = memo(function NavBtn({
   params: { lng, t },
   name,
   path,
@@ -29,7 +29,7 @@ export default function NavBtn({
       </Link>
     </li>
   );
-}
+});
 
 function handleSharePdf({ path, lang }: { path: string; lang: string }) {
   if (path.includes("pdf")) {

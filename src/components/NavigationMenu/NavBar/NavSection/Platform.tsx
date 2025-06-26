@@ -57,7 +57,7 @@ export default function PlatformNavSection({
             {/* Cột 1: Chọn Product/Solution */}
             <div
               style={{ flexBasis: "20%" }}
-              className="flex flex-col gap-2 p-3 px-4 bg-purple-50 border-r border-purple-200 justify-center text-center"
+              className="flex flex-col gap-2 p-3 px-4 bg-gray-50 border-r border-purple-200 justify-center text-center"
             >
               <div
                 className={clsx(
@@ -155,7 +155,7 @@ export default function PlatformNavSection({
             {/* Cột 3: Mô tả chi tiết */}
             <div
               style={{ flexBasis: "30%", minHeight: "380px" }}
-              className="flex flex-col bg-[#faf8ff] border-r border-purple-100 p-6 transition-all duration-200 overflow-y-auto text-justify justify-center"
+              className="flex flex-col bg-gray-50 border-r border-purple-100 p-6 transition-all duration-200 overflow-y-auto text-justify justify-center"
             >
               <div
                 dangerouslySetInnerHTML={{
@@ -170,7 +170,7 @@ export default function PlatformNavSection({
             {/* Cột 4: Ảnh minh hoạ */}
             <div
               style={{ flexBasis: "30%", minHeight: "380px" }}
-              className="flex items-center justify-center p-4 bg-[#f6f6fa]"
+              className="flex items-center justify-center p-4 bg-white"
             >
               {hoveredItem?.image ? (
                 <img
@@ -192,7 +192,7 @@ export default function PlatformNavSection({
       {/* Mobile UI */}
       <div className="block lg:hidden">
         <div className="w-full flex flex-col items-center">
-          <div className="w-full bg-purple-50 border border-purple-100 rounded-xl shadow-lg p-0 mb-4">
+          <div className="w-full bg-white border border-purple-100 rounded-xl shadow-lg p-0 mb-4">
             <button
               className={clsx(
                 "w-full flex items-center justify-between px-5 py-3 font-bold text-purple-700 text-base rounded-t-xl focus:outline-none",
