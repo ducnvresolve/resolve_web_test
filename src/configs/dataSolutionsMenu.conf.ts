@@ -57,7 +57,7 @@ export const DATA_SOLUTIONS_MENU = {
         "Unlock the power of your data with advanced analytics tools that transform raw information into actionable insights. Whether you're looking to visualize trends, make data-driven decisions, or build predictive models, our tools offer robust solutions tailored to your needs.",
       description_vn:
         "Khai phá sức mạnh dữ liệu với các công cụ phân tích hiện đại, chuyển đổi dữ liệu thô thành thông tin giá trị. Dễ dàng trực quan hóa xu hướng, ra quyết định dựa trên dữ liệu hoặc xây dựng mô hình dự báo phù hợp với nhu cầu doanh nghiệp.",
-      image: "/images/products_and_services/data_analytics.png",
+      image: "/assets/images/image1201.jpg",
     },
     {
       name: "Data Management",
@@ -75,7 +75,7 @@ export const DATA_SOLUTIONS_MENU = {
       name_vn: "Tư vấn",
       description: `Our experts provide guidance and best practices to help you maximize the value of your data and analytics investments, ensuring your organization is set up for long-term success.`,
       description_vn: `Các chuyên gia của chúng tôi cung cấp hướng dẫn và thực tiễn tốt nhất để giúp bạn tối đa hóa giá trị đầu tư vào dữ liệu và phân tích, đảm bảo tổ chức của bạn sẵn sàng cho thành công lâu dài.`,
-      image: "/images/products_and_services/data_analytics.png",
+      image: "/assets/images/image1202.webp",
     },
     {
       name: "Digital Transformation",
@@ -83,7 +83,7 @@ export const DATA_SOLUTIONS_MENU = {
       name_vn: "Chuyển đổi số",
       description: `Drive innovation and efficiency in your organization by leveraging digital technologies to transform business processes, culture, and customer experiences.`,
       description_vn: `Thúc đẩy đổi mới và hiệu quả trong tổ chức của bạn bằng cách tận dụng công nghệ số để chuyển đổi quy trình kinh doanh, văn hóa và trải nghiệm khách hàng.`,
-      image: "/images/products_and_services/data_analytics.png",
+      image: "/assets/images/image1203.webp",
     },
     {
       name: "Geospatial Analytics (Geo Analytics)",
@@ -91,7 +91,7 @@ export const DATA_SOLUTIONS_MENU = {
       name_vn: "Phân tích không gian địa lý",
       description: `Gain location-based insights to make smarter decisions, optimize operations, and uncover new opportunities using advanced geospatial analytics.`,
       description_vn: `Khai thác thông tin dựa trên vị trí để ra quyết định thông minh hơn, tối ưu hóa hoạt động và khám phá cơ hội mới với các công cụ phân tích không gian địa lý tiên tiến.`,
-      image: "/images/products_and_services/data_analytics.png",
+      image: "/assets/images/image1204.jpeg",
     },
     {
       name: "Sustainability & ESG Solutions",
@@ -99,7 +99,7 @@ export const DATA_SOLUTIONS_MENU = {
       name_vn: "Giải pháp phát triển bền vững & ESG",
       description: `Implement and track sustainability initiatives and ESG (Environmental, Social, Governance) metrics to meet regulatory requirements and achieve your organization's sustainability goals.`,
       description_vn: `Triển khai và theo dõi các sáng kiến phát triển bền vững cùng các chỉ số ESG (Môi trường, Xã hội, Quản trị) để đáp ứng yêu cầu pháp lý và đạt được mục tiêu phát triển bền vững của tổ chức bạn.`,
-      image: "/images/products_and_services/data_analytics.png",
+      image: "/assets/images/image1205.jpeg",
     },
   ],
 };

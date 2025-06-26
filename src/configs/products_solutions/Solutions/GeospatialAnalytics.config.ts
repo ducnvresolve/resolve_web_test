@@ -80,6 +80,7 @@ export const GEOSPATIAL_ANALYTICS_CONFIG3: IContent = {
       `,
       desc_vn:
         "Hiểu phân bố địa lý của khách hàng so với vị trí thực tế của bạn, giúp tối ưu hóa vị trí mở mới hoặc quảng cáo địa phương mục tiêu.",
+      img: ["/assets/images/image1206.jpg"],
     },
     {
       title: "Logistics & Field Service Optimization",
@@ -87,6 +88,7 @@ export const GEOSPATIAL_ANALYTICS_CONFIG3: IContent = {
       desc: `Track the movement of your fleet, analyze service call densities, and optimize routes for maximum efficiency and reduced fuel costs.`,
       desc_vn:
         "Theo dõi di chuyển của đội xe, phân tích mật độ cuộc gọi dịch vụ và tối ưu hóa tuyến đường để tăng hiệu quả, giảm chi phí nhiên liệu.",
+      img: ["/assets/images/image1206.png"],
     },
     {
       title: "Scenario - Enhancing Customer Service for a Bank Chain",

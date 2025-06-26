@@ -22,7 +22,7 @@ export const DATA_ANALYTICS_CONFIG: IContent = {
       desc_vn:
         "Hành trình đến thông tin dữ liệu bắt đầu với việc tổng hợp tất cả thông tin của bạn. Chúng tôi thận trọng nhận dạng, trích xuất và tích hợp dữ liệu từ mọi ngóc ngách doanh nghiệp – từ hệ thống CRM, ERP, công cụ tự động hóa marketing, phân tích web, thiết bị IoT đến dữ liệu thị trường bên ngoài. Chiến lược tích hợp của chúng tôi đảm bảo một cái nhìn tổng thể, thống nhất, phá vỡ các silo dữ liệu truyền thống.",
 
-      //   img: ["/assets/images/image254.png"],
+      img: ["/assets/imagesSolutions/image2.png"],
     },
     {
       title: "Advanced data preparation and transformation",
