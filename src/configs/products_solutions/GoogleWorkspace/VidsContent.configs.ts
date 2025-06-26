@@ -21,18 +21,18 @@ const AI_powered_video_creation_for_work: IContent = {
       desc_vn: `Phòng thu Vids giúp đào tạo khách hàng và nhóm với quy mô lớn, cung cấp cho họ thông tin họ cần thông qua chia sẻ màn hình dễ dàng.`,
       img: ["/assets/images/image57.png"],
     },
-    {
-      title: `Project Management`,
-      title_vn: `Quản lý dự án`,
-      desc: `Gemini in Vids helps unlock video creation for everyone through a fully editable outline with suggested scenes, stock media, and more — all from a prompt and a file.`,
-      desc_vn: `Gemini trong Vids giúp mở khóa khả năng tạo video cho mọi người thông qua dàn ý có thể chỉnh sửa đầy đủ với các cảnh được đề xuất, phương tiện có sẵn và hơn thế nữa — tất cả chỉ từ một lời nhắc và một tệp.`,
-    },
-    {
-      title: "Marketing",
-      title_vn: "Tiếp thị",
-      desc: `Vids content library helps unleash your creativity and create dynamic, engaging videos with millions of high quality royalty-free media assets.`,
-      desc_vn: `Thư viện nội dung Vids giúp giải phóng sự sáng tạo của bạn và tạo video động, hấp dẫn với hàng triệu tài sản phương tiện miễn phí bản quyền chất lượng cao.`,
-    },
+    // {
+    //   title: `Project Management`,
+    //   title_vn: `Quản lý dự án`,
+    //   desc: `Gemini in Vids helps unlock video creation for everyone through a fully editable outline with suggested scenes, stock media, and more — all from a prompt and a file.`,
+    //   desc_vn: `Gemini trong Vids giúp mở khóa khả năng tạo video cho mọi người thông qua dàn ý có thể chỉnh sửa đầy đủ với các cảnh được đề xuất, phương tiện có sẵn và hơn thế nữa — tất cả chỉ từ một lời nhắc và một tệp.`,
+    // },
+    // {
+    //   title: "Marketing",
+    //   title_vn: "Tiếp thị",
+    //   desc: `Vids content library helps unleash your creativity and create dynamic, engaging videos with millions of high quality royalty-free media assets.`,
+    //   desc_vn: `Thư viện nội dung Vids giúp giải phóng sự sáng tạo của bạn và tạo video động, hấp dẫn với hàng triệu tài sản phương tiện miễn phí bản quyền chất lượng cao.`,
+    // },
     {
       title: "Start creating videos, no experience required",
       title_vn: "Bắt đầu tạo video, không cần kinh nghiệm",
@@ -92,6 +92,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Generate short AI videos from a text prompt, using our latest video generation model Veo 2. Save time searching for assets to tell your story and create custom footage in minutes.",
       desc_vn:
         "Tạo video AI ngắn từ một lời nhắc văn bản, sử dụng mô hình tạo video mới nhất Veo 2 của chúng tôi. Tiết kiệm thời gian tìm kiếm tài sản để kể câu chuyện của bạn và tạo cảnh quay tùy chỉnh trong vài phút.",
+      img: ["/assets/images/image1113.webp"],
     },
     {
       title: "Create stunning custom imagery",
@@ -99,6 +100,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Create highly detailed, photorealistic images with Google's latest text to image model, Imagen 3, directly in Google Vids.",
       desc_vn:
         "Tạo hình ảnh chi tiết cao, chân thực với mô hình chuyển văn bản thành hình ảnh mới nhất của Google, Imagen 3, trực tiếp trong Google Vids.",
+      img: ["/assets/images/image1112.webp"],
     },
     {
       title: "Unleash your creativity with rich media",
@@ -113,6 +115,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Enhance scenes with high-quality stock media, music, and more from our content library.",
       desc_vn:
         "Nâng cao cảnh với phương tiện có sẵn chất lượng cao, âm nhạc và hơn thế nữa từ thư viện nội dung của chúng tôi.",
+      img: ["/assets/images/image1111.webp"],
     },
     {
       title: "Add your own media, directly in Vids",
@@ -120,6 +123,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Personalize your videos by easily adding your own photos, videos and more, directly from Google Drive or Google Photos.",
       desc_vn:
         "Cá nhân hóa video của bạn bằng cách dễ dàng thêm ảnh, video và hơn thế nữa của riêng bạn, trực tiếp từ Google Drive hoặc Google Photos.",
+      img: ["/assets/images/image1110.webp"],
     },
     {
       title: "Make your video move",
@@ -127,6 +131,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Add visual interest and engage viewers with a host of animations, transitions and photo effects, as well as object tracking.",
       desc_vn:
         "Thêm sự hấp dẫn trực quan và thu hút người xem với nhiều hoạt ảnh, hiệu ứng chuyển cảnh và hiệu ứng ảnh, cũng như theo dõi đối tượng.",
+      img: ["/assets/images/image1106.webp"],
     },
     {
       title: "Collaboration made easy",
@@ -134,6 +139,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Collaborate and share videos just as easily as you do in Docs, Sheets and Slides, all without ever leaving Workspace.",
       desc_vn:
         "Cộng tác và chia sẻ video dễ dàng như trong Docs, Sheets và Slides, tất cả mà không cần rời khỏi Workspace.",
+      img: ["/assets/images/image1107.webp"],
     },
     {
       title: "Simple sharing controls",
@@ -148,6 +154,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "View videos in your browser, with auto-generated closed caption support so everyone can follow along.",
       desc_vn:
         "Xem video trong trình duyệt của bạn, với hỗ trợ phụ đề tự động để mọi người có thể theo dõi.",
+      img: ["/assets/images/image1108.webp"],
     },
     {
       title: "Safe and secure",
@@ -155,6 +162,7 @@ const AI_powered_video_creation_for_work: IContent = {
       desc: "Just like the rest of Workspace, your content is encrypted by default, with privacy controls to keep your data safe.",
       desc_vn:
         "Giống như phần còn lại của Workspace, nội dung của bạn được mã hóa theo mặc định, với kiểm soát quyền riêng tư để giữ an toàn cho dữ liệu của bạn.",
+      img: ["/assets/images/image1109.webp"],
     },
     {
       title: "Digital notes, accessible from anywhere",

@@ -53,6 +53,7 @@ const capture_whats_important_and_get_things_done: IContent = {
       desc: "Keep makes it easy to work together to get more done.",
       desc_vn:
         "Keep giúp bạn dễ dàng làm việc nhóm để hoàn thành nhiều việc hơn.",
+      img: ["/assets/images/image1114.webp"],
     },
   ],
 };

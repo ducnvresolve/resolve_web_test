@@ -21,12 +21,14 @@ const The_best_of_google_ai_now_included_in_workspace_plans: IContent = {
       title_vn: `Tải lên nguồn của bạn`,
       desc: `Upload PDFs, websites, YouTube videos, audio files, Google Docs, or Google Slides, and NotebookLM will summarize them and make interesting connections between topics, all powered by Gemini 2.0's multimodal understanding capabilities.`,
       desc_vn: `Tải lên PDF, trang web, video YouTube, tệp âm thanh, Google Docs hoặc Google Slides, và NotebookLM sẽ tóm tắt chúng và tạo kết nối thú vị giữa các chủ đề, tất cả được hỗ trợ bởi khả năng hiểu đa phương thức của Gemini 2.0.`,
+      img: ["/assets/images/image1103.jpg"],
     },
     {
       title: "Instant insights",
       title_vn: "Hiểu biết tức thì",
       desc: `With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.`,
       desc_vn: `Với tất cả nguồn của bạn đã sẵn sàng, NotebookLM bắt đầu làm việc và trở thành chuyên gia AI cá nhân hóa trong thông tin quan trọng nhất đối với bạn.`,
+      img: ["/assets/images/image1104.jpg"],
     },
     {
       title: "See the source, not just the answer",
@@ -34,6 +36,7 @@ const The_best_of_google_ai_now_included_in_workspace_plans: IContent = {
       desc: "Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.",
       desc_vn:
         "Tăng cường sự tin tưởng trong mỗi phản hồi vì NotebookLM cung cấp trích dẫn rõ ràng cho công việc của nó, hiển thị cho bạn chính xác các trích dẫn từ nguồn của bạn.",
+      img: ["/assets/images/image1105.webp"],
     },
     {
       title: "Listen and learn on the go",
@@ -41,18 +44,7 @@ const The_best_of_google_ai_now_included_in_workspace_plans: IContent = {
       desc: 'Our new Audio Overview feature can turn your sources into engaging "Deep Dive" discussions with one click.',
       desc_vn:
         'Tính năng Tổng quan Âm thanh mới của chúng tôi có thể biến nguồn của bạn thành các cuộc thảo luận "Đi sâu" hấp dẫn chỉ với một cú nhấp chuột.',
-    },
-    {
-      title: "Customize your notebooks and collaborate across your team",
-      title_vn: "Tùy chỉnh sổ ghi chép của bạn và cộng tác trong toàn bộ nhóm",
-      desc: "",
-      desc_vn: "",
-    },
-    {
-      title: "Customize your notebooks and collaborate across your team",
-      title_vn: "Tùy chỉnh sổ ghi chép của bạn và cộng tác trong toàn bộ nhóm",
-      desc: "",
-      desc_vn: "",
+      img: ["/assets/images/image1106.png"],
     },
   ],
 };

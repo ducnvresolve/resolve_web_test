@@ -108,7 +108,7 @@ const TASKS_FEATURES: ColumFeature[] = [
 
 const TASKS_FEATURES_SECTION = {
   title: "",
-  title_vn: "",
+  title_vn: ``,
   features: TASKS_FEATURES,
 };
 

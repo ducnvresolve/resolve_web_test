@@ -23,12 +23,14 @@ Gemini là chatbot trí tuệ nhân tạo sinh ngữ do Google phát triển, d�
       desc_vn: `<li>Gemini là nhà phân tích giúp bạn phát hiện xu hướng, tổng hợp thông tin và nhận diện cơ hội kinh doanh.</li>
       <li>Gemini là cộng sự bán hàng giúp bạn soạn thảo đề xuất cho khách hàng mới.</li>
       <li>Gemini là đối tác năng suất hỗ trợ bạn soạn, trả lời và tóm tắt email để tiết kiệm thời gian dù ở văn phòng hay di chuyển.</li>`,
+      img: [["/assets/images/image1100.jpg", "object-cover"]],
     },
     {
       title: `Gemini is your creative assistant for stunning presentations – generating images and designs at your fingertips.`,
       title_vn: `Gemini là trợ lý sáng tạo cho các bài thuyết trình ấn tượng – tạo hình ảnh và thiết kế chỉ với một chạm.`,
       desc: `Gemini is your creative assistant for stunning presentations – generating images and designs at your fingertips.`,
       desc_vn: `Gemini là trợ lý sáng tạo cho các bài thuyết trình ấn tượng – tạo hình ảnh và thiết kế chỉ với một chạm.`,
+      img: [["/assets/images/image1101.webp", "object-cover"]],
     },
     {
       title:
@@ -37,12 +39,7 @@ Gemini là chatbot trí tuệ nhân tạo sinh ngữ do Google phát triển, d�
         "Gemini là người ghi chú cuộc họp giúp bạn lưu lại chi tiết để tập trung vào cuộc trò chuyện.",
       desc: `Gemini is your meeting note taker to help you capture the details so you can focus on the conversation.`,
       desc_vn: `Gemini là người ghi chú cuộc họp giúp bạn lưu lại chi tiết để tập trung vào cuộc trò chuyện.`,
-    },
-    {
-      title: "",
-      title_vn: "",
-      desc: "",
-      desc_vn: "",
+      img: [["/assets/images/image1102.png", "object-contain"]],
     },
   ],
 };

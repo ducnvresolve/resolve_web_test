@@ -169,7 +169,7 @@ export const SUSTAINABILITY_ESG_SOLUTIONS_KEY_BENEFITS: IContent = {
   title_vn:
     "Lợi ích nổi bật của giải pháp phát triển bền vững & ESG của resolve",
   desc: "",
-  desc_vn: "",
+  desc_vn: ``,
   img: [],
   bullets: [
     {

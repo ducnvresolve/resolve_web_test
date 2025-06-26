@@ -21,14 +21,14 @@ const Impactful_team_sites_made_easy: IContent = {
       title_vn: `Tạo nguồn thông tin chính xác cho nhóm của bạn`,
       desc: `Sites makes it easy for your team to share and access important information in a single place.`,
       desc_vn: `Sites giúp nhóm của bạn dễ dàng chia sẻ và truy cập thông tin quan trọng tại một nơi duy nhất.`,
-      img: ["/assets/images/image249.png"],
+      // img: ["/assets/images/image249.png"],
     },
     {
       title: "Premade templates for fast design",
       title_vn: "Mẫu có sẵn cho thiết kế nhanh",
       desc: `Save time with premade site templates tailored to your needs.`,
       desc_vn: `Tiết kiệm thời gian với các mẫu trang web có sẵn được điều chỉnh theo nhu cầu của bạn.`,
-      img: ["/assets/images/image244.png"],
+      img: ["/assets/images/image249.png"],
     },
     {
       title: "Designed for collaboration",
@@ -36,6 +36,7 @@ const Impactful_team_sites_made_easy: IContent = {
       desc: "Collaborate easily with real-time co-editing and see changes instantly, just like in Docs or Slides.",
       desc_vn:
         "Cộng tác dễ dàng với chỉnh sửa đồng thời theo thời gian thực và xem các thay đổi ngay lập tức, giống như trong Docs hoặc Slides.",
+      img: ["/assets/images/image244.png"],
     },
     {
       title: "Deep integration with Google Workspace",
@@ -51,26 +52,26 @@ const Impactful_team_sites_made_easy: IContent = {
       desc_vn: `Sites trông đẹp trên tất cả các thiết bị, bao gồm máy tính để bàn, máy tính bảng và điện thoại di động.`,
       img: ["/assets/images/image80.png"],
     },
-    {
-      title: "Visualize the responses",
-      title_vn: "Trực quan hóa các phản hồi",
-      desc: "View automated charts based on respondents' answers in real-time.",
-      desc_vn:
-        "Xem biểu đồ tự động dựa trên câu trả lời của người trả lời theo thời gian thực.",
-    },
-    {
-      title: "Get deeper insights",
-      title_vn: "Nhận thông tin chi tiết sâu hơn",
-      desc: `Export the raw data into Google Sheets for deeper analysis.`,
-      desc_vn: `Xuất dữ liệu thô vào Google Sheets để phân tích sâu hơn.`,
-    },
-    {
-      title: "Analyze results together",
-      title_vn: "Phân tích kết quả cùng nhau",
-      desc: "Share Forms with others to collaborate and analyze the results, all in one place.",
-      desc_vn:
-        "Chia sẻ Forms với người khác để cộng tác và phân tích kết quả, tất cả tại một nơi.",
-    },
+    // {
+    //   title: "Visualize the responses",
+    //   title_vn: "Trực quan hóa các phản hồi",
+    //   desc: "View automated charts based on respondents' answers in real-time.",
+    //   desc_vn:
+    //     "Xem biểu đồ tự động dựa trên câu trả lời của người trả lời theo thời gian thực.",
+    // },
+    // {
+    //   title: "Get deeper insights",
+    //   title_vn: "Nhận thông tin chi tiết sâu hơn",
+    //   desc: `Export the raw data into Google Sheets for deeper analysis.`,
+    //   desc_vn: `Xuất dữ liệu thô vào Google Sheets để phân tích sâu hơn.`,
+    // },
+    // {
+    //   title: "Analyze results together",
+    //   title_vn: "Phân tích kết quả cùng nhau",
+    //   desc: "Share Forms with others to collaborate and analyze the results, all in one place.",
+    //   desc_vn:
+    //     "Chia sẻ Forms với người khác để cộng tác và phân tích kết quả, tất cả tại một nơi.",
+    // },
   ],
 };
 

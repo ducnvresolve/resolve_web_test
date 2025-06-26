@@ -237,7 +237,7 @@ const embeddedAnalyticsPlatform: IContent = {
     },
     // {
     //   title: "AI-powered insights",
-    //   title_vn: "",
+    //   title_vn: ``,
     //   desc: "AI detects trends, anomalies, and provides instant, actionable data intelligence.",
     //   desc_vn:
     //     "",

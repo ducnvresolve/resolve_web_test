@@ -3,7 +3,7 @@ import { IContent } from "@/templates/Products/Sisense/components/ContentCardLon
 const viettelCloudNetworking: IContent = {
   id: "viettel-cloud-networking",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `vNetwork is a service that provides network functions for virtual servers, allowing users to access Cloud resources from the Internet or between resources in the Cloud.`,
   desc_vn: `vNetwork là dịch vụ cung cấp các chức năng mạng cho máy chủ ảo, cho phép người dùng truy cập tài nguyên Cloud từ Internet hoặc giữa các tài nguyên trong Cloud.`,
   bullets: [

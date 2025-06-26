@@ -75,7 +75,7 @@ export const FeatureHighlight = memo(
                   className="w-8 h-8 mb-2"
                 />
               )}
-              <h3 className="text-base font-semibold text-gray-900 mb-2">
+              <h3 className="w-full text-base font-semibold text-gray-900 mb-2 text-center">
                 {getText(b.title, b.title_vn)}
               </h3>
               <p className="text-sm md:text-base text-gray-700 text-justify line-clamp-4 overflow-hidden">

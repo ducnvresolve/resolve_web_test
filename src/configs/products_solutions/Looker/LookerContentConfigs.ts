@@ -3,7 +3,7 @@ import { IContentGridCard } from "@/templates/Products/Sisense/components/Conten
 
 const firstOverview: IContent = {
   title: "",
-  title_vn: "",
+  title_vn: ``,
   id: "Google Looker",
   desc: `Google Looker is a modern data platform that empowers businesses to
             analyze governed data, deliver actionable business insights, and
@@ -18,7 +18,7 @@ const firstOverview: IContent = {
   bullets: [
     {
       title: "",
-      title_vn: "",
+      title_vn: ``,
       desc: "Google Looker is a modern data platform that empowers businesses to analyze governed data, deliver actionable business insights, and build AI-powered applications. With its unique modeling language, LookML, Looker enables users to define metrics and dimensions in a reusable and consistent manner across the organization.",
       desc_vn:
         "Google Looker là một nền tảng dữ liệu hiện đại giúp doanh nghiệp phân tích dữ liệu được quản lý, cung cấp thông tin chi tiết kinh doanh có thể hành động, và xây dựng các ứng dụng được hỗ trợ bởi AI. Với ngôn ngữ mô hình hóa độc đáo của nó, LookML, Looker cho phép người dùng định nghĩa các chỉ số và chiều trong một cách có thể tái sử dụng và nhất quán trong toàn tổ chức.",
@@ -36,7 +36,7 @@ const lookerMainFeatures: IContent = {
   bullets: [
     {
       title: "",
-      title_vn: "",
+      title_vn: ``,
       desc: "In the generative AI era, a universal semantic layer is the foundation for intelligent decision-making and is key to the success and accuracy of any data project—both now and in the future. Looker's semantic layer translates raw data into a language that both downstream users and large language models (LLMs) can understand, enabling smarter and more accurate workflows.",
       desc_vn:
         "Trong kỷ nguyên AI tạo sinh, một lớp ngữ nghĩa phổ quát là nền tảng cho việc ra quyết định thông minh và là chìa khóa cho sự thành công và chính xác của bất kỳ dự án dữ liệu nào—cả hiện tại và trong tương lai. Lớp ngữ nghĩa của Looker chuyển đổi dữ liệu thô thành ngôn ngữ mà cả người dùng hạ nguồn và mô hình ngôn ngữ lớn (LLMs) có thể hiểu được, cho phép các quy trình làm việc thông minh và chính xác hơn.",
@@ -44,7 +44,7 @@ const lookerMainFeatures: IContent = {
     },
     {
       title: "",
-      title_vn: "",
+      title_vn: ``,
       desc: `By using LookML, Looker provides trusted business metrics and establishes a central hub for data context, definitions, and relationships, powering all BI and AI workflows. Looker's trusted modeling layer offers a single place to curate and govern the metrics most important to your business. This ensures that users see consistent results, regardless of where the data is consumed.<br> To enable the use of this consistent, trustworthy information in your tools of choice, Looker has opened up its modeling layer to its ecosystem and actively collaborates with partners to ensure that the insights within the Looker platform can seamlessly integrate into other workflows.`,
       desc_vn: `Bằng cách sử dụng LookML, Looker cung cấp các chỉ số kinh doanh đáng tin cậy và thiết lập một trung tâm trung tâm cho ngữ cảnh dữ liệu, định nghĩa và mối quan hệ, cung cấp năng lượng cho tất cả các quy trình làm việc BI và AI. Lớp mô hình hóa đáng tin cậy của Looker cung cấp một nơi duy nhất để quản lý và điều hành các chỉ số quan trọng nhất đối với doanh nghiệp của bạn. Điều này đảm bảo rằng người dùng thấy kết quả nhất quán, bất kể dữ liệu được tiêu thụ ở đâu.<br> Để cho phép sử dụng thông tin nhất quán, đáng tin cậy này trong các công cụ bạn chọn, Looker đã mở rộng lớp mô hình hóa của nó cho hệ sinh thái và tích cực hợp tác với các đối tác để đảm bảo rằng các thông tin chi tiết trong nền tảng Looker có thể tích hợp liền mạch vào các quy trình làm việc khác.`,
       img: ["/assets/images/image229.png"],

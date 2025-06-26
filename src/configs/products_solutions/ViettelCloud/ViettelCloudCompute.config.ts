@@ -3,7 +3,7 @@ import { IContent } from "@/templates/Products/Sisense/components/ContentCardLon
 const viettelCloudCompute: IContent = {
   id: "viettel-cloud-compute",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `Compute is a virtual server service researched and developed by Viettel, utilizing the OpenStack technology solution. Viettel Cloud Server allows for quick resource provisioning and upgrades on virtual servers to meet rapidly changing demands`,
   desc_vn: `Compute là dịch vụ máy chủ ảo được Viettel nghiên cứu và phát triển, sử dụng giải pháp công nghệ OpenStack. Viettel Cloud Server cho phép cung cấp và nâng cấp tài nguyên nhanh chóng trên các máy chủ ảo để đáp ứng nhu cầu thay đổi nhanh chóng`,
   bullets: [

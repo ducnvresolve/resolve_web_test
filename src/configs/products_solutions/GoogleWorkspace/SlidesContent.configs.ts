@@ -8,21 +8,21 @@ const Build_beautiful_presentations_together: IContent = {
   desc: `Create and deliver impactful presentations in your browser, from anywhere - no installation required.`,
   desc_vn: `Tạo và trình bày bài thuyết trình ấn tượng trong trình duyệt của bạn, từ bất kỳ đâu - không cần cài đặt.`,
   bullets: [
-    {
-      title: "Get more done with Gemini in Slides",
-      title_vn: "Hoàn thành nhiều việc hơn với Gemini trong Slides",
-      desc: "Catch up with quick summaries of your content. Generate a slide with a simple prompt and your Drive content. Easily generate unique images, and visualize something that never existed. Try Gemini for Google Workspace today.",
-      desc_vn:
-        "Cập nhật với bản tóm tắt nhanh về nội dung của bạn. Tạo slide với một lời nhắc đơn giản và nội dung Drive của bạn. Dễ dàng tạo hình ảnh độc đáo và trực quan hóa những thứ chưa từng tồn tại. Thử Gemini cho Google Workspace ngay hôm nay.",
-      img: ["/assets/images/image301.png"],
-    },
+    // {
+    //   title: "Get more done with Gemini in Slides",
+    //   title_vn: "Hoàn thành nhiều việc hơn với Gemini trong Slides",
+    //   desc: "Catch up with quick summaries of your content. Generate a slide with a simple prompt and your Drive content. Easily generate unique images, and visualize something that never existed. Try Gemini for Google Workspace today.",
+    //   desc_vn:
+    //     "Cập nhật với bản tóm tắt nhanh về nội dung của bạn. Tạo slide với một lời nhắc đơn giản và nội dung Drive của bạn. Dễ dàng tạo hình ảnh độc đáo và trực quan hóa những thứ chưa từng tồn tại. Thử Gemini cho Google Workspace ngay hôm nay.",
+    //   img: ["/assets/images/image301.png"],
+    // },
     {
       title: `Polished presentations, made easy`,
       title_vn: `Bài thuyết trình hoàn thiện, dễ dàng tạo`,
       desc: "Bring your presentations to life in Google Slides with enhancements like videos, animations, smooth transitions, and more.",
       desc_vn:
         "Làm cho bài thuyết trình của bạn sinh động trong Google Slides với các cải tiến như video, hoạt ảnh, chuyển tiếp mượt mà và hơn thế nữa.",
-      img: ["/assets/images/image56.png"],
+      img: ["/assets/images/image301.png"],
     },
     {
       title: "Get started with templates",

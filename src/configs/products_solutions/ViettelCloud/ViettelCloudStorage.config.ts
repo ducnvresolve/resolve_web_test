@@ -3,7 +3,7 @@ import { IContent } from "@/templates/Products/Sisense/components/ContentCardLon
 const viettelCloudStorage: IContent = {
   id: "viettel-cloud-storage",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `Storage provides block storage for virtual servers and can be customized in terms of capacity and configuration, providing the ability to create and store data for the specific needs of each service and application.`,
   desc_vn: `Storage cung cấp lưu trữ khối cho máy chủ ảo và có thể tùy chỉnh về dung lượng và cấu hình, cung cấp khả năng tạo và lưu trữ dữ liệu cho nhu cầu cụ thể của từng dịch vụ và ứng dụng.`,
   bullets: [

@@ -24,7 +24,7 @@ const GEMINI_IN_CHAT: IContent = {
       title: "Made for modern messaging, powered by AI",
       title_vn: "Được tạo cho nhắn tin hiện đại, được hỗ trợ bởi AI",
       desc: "",
-      desc_vn: "",
+      desc_vn: ``,
       img: ["/assets/images/image45.png"],
     },
     {

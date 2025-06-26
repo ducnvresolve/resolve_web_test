@@ -110,7 +110,7 @@ const MORE_TOOLS_TO_HELP_YOU_GROW_YOUR_BUSINESS: IContent = {
   title: "More tools to help you grow your business",
   title_vn: "Thêm công cụ để giúp doanh nghiệp của bạn phát triển",
   desc: "",
-  desc_vn: "",
+  desc_vn: ``,
   bullets: [
     {
       title: "Custom business email",

@@ -3,7 +3,7 @@ import { IContent } from "@/templates/Products/Sisense/components/ContentCardLon
 const viettelCloudBackup: IContent = {
   id: "viettel-cloud-backup",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `Viettel Cloud Backup is a service that allows you to safely back up your important data to the cloud. Viettel's solution allows automatic data backup scheduling to ensure that the latest data is backed up, transmitted and stored.`,
   desc_vn: `Viettel Cloud Backup là dịch vụ cho phép bạn sao lưu dữ liệu quan trọng một cách an toàn lên đám mây. Giải pháp của Viettel cho phép lên lịch sao lưu dữ liệu tự động để đảm bảo dữ liệu mới nhất được sao lưu, truyền tải và lưu trữ.`,
   bullets: [

@@ -1,7 +1,7 @@
 const GoogleWorkspaceAdminContent = {
   id: "",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `
     `,
   desc_vn: `

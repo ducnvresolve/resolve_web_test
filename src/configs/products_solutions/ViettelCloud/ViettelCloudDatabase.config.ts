@@ -3,7 +3,7 @@ import { IContent } from "@/templates/Products/Sisense/components/ContentCardLon
 const viettelCloudDatabase: IContent = {
   id: "viettel-cloud-database",
   title: "",
-  title_vn: "",
+  title_vn: ``,
   desc: `Allows customers to easily set up, operate and expand enterprise databases on Viettel Cloud's cloud computing platform.`,
   desc_vn: `Cho phép khách hàng dễ dàng thiết lập, vận hành và mở rộng cơ sở dữ liệu doanh nghiệp trên nền tảng điện toán đám mây của Viettel Cloud.`,
   bullets: [
