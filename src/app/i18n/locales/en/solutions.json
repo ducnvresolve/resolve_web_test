@@ -1,0 +1,44 @@
+{
+  "page": {
+    "title": "Solutions",
+    "subtitle": "Consulting & solution services provided by resolve"
+  },
+  "data-driven-digital-transformation": {
+    "title": "Data-Driven Digital Transformation",
+    "p": {
+      "1": "We acknowledge that each stage of your data journey lays the foundation for success. From gaining a comprehensive understanding to streamlining data collection and analysis, we deliver actionable insights for making informed decisions. As the result, analytics can be incorporated directly into your products, regardless of your technical setup. It can be deployed on any cloud — single-tenant or multi-tenant — with complete control and security.",
+      "2": "Our analytics experts leverage data to craft unique, data-driven solutions tailored to your challenges. We extend beyond mere technology implementation, transforming your business processes, culture, and strategy to fully reap the benefits of digital transformation.",
+      "3": "resolve provides some of the most unique data-driven digital transformation services for all industries in Vietnam. We transform data into insights, fuel growth, and ensure your business excels in the digital age through expert guidance, innovative solutions, and unwavering support."
+    },
+    "li": {
+      "1": "Connect data from any source",
+      "2": "Deploy on any cloud",
+      "3": "Maintain data control & security"
+    }
+  },
+  "data-and-analytics": {
+    "title": "Data & Analytics",
+    "p": {
+      "1": "In the realm of digital transformation, data is the catalyst for innovation. At resolve, our Data & Analytics service captures, manages, and leverages this essential resource, providing customizable solutions tailored to your unique needs.",
+      "2": "We support our customers to construct comprehensive end-to-end analytics frameworks using the Sisense Fusion platform. By leveraging this platform, we empower organizations to harness the full potential of their data, transforming it into actionable insights that drive informed decision-making and business growth.",
+      "3": "Data & Analytics is not merely a service; it's a commitment. Armed with experience and in-depth knowledge, resolve delivers a comprehensive, cost-effective, and secure data management solution that propels your digital transformation forward."
+    },
+    "li": {
+      "1": "Build intelligent analytics",
+      "2": "Unlock insights with AI/ML",
+      "3": "Visualize analytics in various graphs"
+    }
+  },
+  "embedded-analytics": {
+    "title": "Embedded Analytics",
+    "p": {
+      "1": "As an authorized Sisense partner in Vietnam, resolve delivers cutting-edge analytics solutions to your fingertips. By seamlessly integrating and embedding analytics capabilities into your products, we assist in harnessing powerful data insights, driving informed decisions, and enhancing your business performance.",
+      "2": "We infuse Sisense's intelligent analytics seamlessly while maintaining a consistent look & feel across your existing application. As the results, we ensure that you remain at the forefront of analytics innovation, unlocking new opportunities for growth and success."
+    },
+    "li": {
+      "1": "Integrate data to apps seamlessly",
+      "2": "Maintain brand look and feel",
+      "3": "Support no-code & pro-code approach"
+    }
+  }
+}

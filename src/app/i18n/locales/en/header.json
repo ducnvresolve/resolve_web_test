@@ -1,0 +1,100 @@
+{
+  "base": {
+    "learn-more": "Learn More"
+  },
+  "about": {
+    "title": "About",
+    "description": "Get to know about resolve: our company, our partner, as well as opportunities",
+    "who-we-are": "Who we are",
+    "what-we-do": "What we do",
+    "resolve": {
+      "title": "Company",
+      "description": "Introdution of resolve Computing Services Co Ltd - our team, our mission & our values",
+      "intro": "Founded in 2015, resolve Computing Services Co. Ltd. (resolve) is a niche data solutions company with a deep focus on data analytics and the application of AI/ML technologies"
+    },
+    "brochure": {
+      "title": "Brochure",
+      "description": "Download & read our company brochure"
+    },
+    "partners": {
+      "title": "Partners",
+      "description": "Learn more about our solution partners as well as the other authorized partners"
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "Ready to make a data-driven decision? Get in touch with us"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "description": "Interested in our work? Join resolve now!"
+    },
+    "solutions": {
+      "title": "Services",
+      "description": "Services provided by resolve",
+      "1": {
+        "title": "Data-Driven Digital Transformation",
+        "description": "Digitalize your data into insightful analytics"
+      },
+      "2": {
+        "title": "Data & Analytics",
+        "description": "Apply tools and AI-powered features to your analytics"
+      },
+      "3": {
+        "title": "Embedded Analytics",
+        "description": "Embed your data analytics into your applications"
+      },
+      "see-all-solutions": "See all solutions"
+    }
+  },
+  "platform": {
+    "title": "Data Solutions",
+    "description": "All Sisense Fusion Platform's available features",
+    "features": "Features",
+    "video-introduction": "Video introduction",
+    "sisense": {
+      "title": "Sisense Fusion Platform",
+      "description": "Leading business intelligence & infuse analytics platform with powerful data analytical tools and AI-driven capabilities"
+    },
+    "1": {
+      "title": "Seamless Integration",
+      "description": "Connect your data to analytics with ease while maintaining data integrity"
+    },
+    "2": {
+      "title": "Customized Data Experience",
+      "description": "Digest and visualize data based on your unique needs"
+    },
+    "3": {
+      "title": "Infused Analytics Everywhere",
+      "description": "Embed built analytics to your existing applications dynamically"
+    },
+    "learn-more": "See video demonstration"
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "resolve's available resources",
+    "read-article": "Read article",
+    "external-link": "External link",
+    "articles": {
+      "title": "Articles",
+      "description": "See resolve's blog posts"
+    },
+    "customer-stories": {
+      "title": "Customer Stories",
+      "description": "Collection of stories from customers using our services"
+    },
+    "showcase": {
+      "title": "Showcase",
+      "description": "Witness Sisense capabilities"
+    },
+    "video": {
+      "title": "Video Demonstration",
+      "description": "Watch video demonstration of Sisense Fusion Platform"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "read-more": "Read More"
+   
+  },
+  "see-demo": "Request Demo"
+}

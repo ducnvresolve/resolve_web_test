@@ -1,0 +1,25 @@
+{
+  "page": {
+    "title": "Platform",
+    "subtitle": "Sisense Fusion Platform's available features"
+  },
+  "learn-more": "Learn more",
+  "features": {
+    "1": {
+      "title": "Seamless Integration",
+      "description": "Connect your data to analytics with ease while maintaining data integrity"
+    },
+    "2": {
+      "title": "Customized Data Experience",
+      "description": "Digest and visualize data based on your unique needs"
+    },
+    "3": {
+      "title": "Infused Analytics Everywhere",
+      "description": "Embed built analytics to your existing applications dynamically"
+    }
+  },
+  "video": {
+    "title": "Introduction to Sisense",
+    "button": "See More Video Demonstration"
+  }
+}

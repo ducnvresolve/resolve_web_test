@@ -1,0 +1,46 @@
+{
+  "page": {
+    "title": "Về chúng tôi",
+    "subtitle": "công ty TNHH dịch vụ xử lý Điện Toán resolve"
+  },
+  "our-mission": {
+    "title": "Nhiệm vụ của chúng tôi",
+    "description": {
+      "1": "Được thành lập vào năm 2015, <strong>công ty TNHH dịch vụ xử lý Điện Toán - resolve</strong> là công ty giải pháp dữ liệu chuyên biệt tập trung sâu vào phân tích dữ liệu và ứng dụng các công nghệ trí tuệ nhân tạo (AI) và học máy (ML).",
+      "2": "resolve cam kết tạo ra các giải pháp số hóa và phân tích dữ liệu sáng tạo, mang lại tác động mạnh mẽ. Mục tiêu của chúng tôi là xây dựng một cộng đồng bền vững, tập trung vào sự thành công của bạn và sự phát triển của ngành nghề bạn đang hoạt động.",
+      "3": "Tầm nhìn của chúng tôi rất rõ ràng: trở thành nhà cung cấp giải pháp phân tích dữ liệu hàng đầu tại Việt Nam trong tương lai gần. Chúng tôi cam kết đạt được điều này thông qua sự đổi mới liên tục, tận tâm với sự thành công của khách hàng và nỗ lực không ngừng để đạt đến sự xuất sắc trong lĩnh vực giải pháp dữ liệu. Tại resolve, chúng tôi giải quyết dữ liệu - đó là cốt lõi của mọi thứ chúng tôi làm."
+    }
+  },
+  "our-team": {
+    "title": "Đội ngũ của chúng tôi",
+    "description": "Đội ngũ resolve của chúng tôi bao gồm những cá nhân nhiệt huyết, trẻ trung, tài năng và có kỹ năng từ nhiều lĩnh vực khác nhau, cùng chia sẻ một mục tiêu chung. Chúng tôi có nhiều kinh nghiệm và bằng cấp trong các lĩnh vực như AWS, An ninh mạng, Quản lý, Luật, Toán học và Khoa học Máy tính. Đội ngũ của chúng tôi đã được đào tạo để triển khai Sisense. Chúng tôi biết làm việc chăm chỉ và tận hưởng cuộc sống, đồng thời đủ trưởng thành để cung cấp các giải pháp chất lượng."
+  },
+  "our-values": {
+    "title": "Giá trị của chúng tôi",
+    "1": {
+      "h": "Hướng tới thành công của doanh nghiệp",
+      "p": "Chúng tôi cam kết hiểu rõ nhu cầu riêng biệt của từng doanh nghiệp và cung cấp các giải pháp tùy chỉnh, dựa trên dữ liệu để đảm bảo sự thành công trong kỷ nguyên số."
+    },
+    "2": {
+      "h": "Giải pháp sáng tạo & linh hoạt",
+      "p": "Đội ngũ của chúng tôi biến thách thức thành các giải pháp. Từ đó, thúc đẩy tăng trưởng thông qua chuyển đổi số, điều hướng doanh nghiệp tới thành công."
+    },
+    "3": {
+      "h": "Minh bạch & tôn trọng khách hàng",
+      "p": "Chúng tôi tạo dựng một văn hóa làm việc minh bạch, tạo dựng niềm tin và tôn trọng lẫn nhau. Sẽ không có sự phân biệt đối xử với mỗi khách hàng, đối tác và thành viên trong đội ngũ."
+    }
+  },
+  "our-achievements": {
+    "title": "Thành tựu của chúng tôi",
+    "description": "Chúng tôi có nhiều kinh nghiệm triển khai kho dữ liệu toàn cầu, datamart, báo cáo BI, phân tích, tích hợp dữ liệu, và các ứng dụng kinh doanh (CRM, ERP, truyền thông doanh nghiệp). Chúng tôi cung cấp dịch vụ tư vấn cho các sáng kiến chuyển đổi số như quyết định tín dụng dựa trên dữ liệu và số hóa dịch vụ ngân hàng tới các ngân hàng lớn tại Việt Nam như VPBank, Techcombank, Sacombank, và các ngân hàng quốc tế như Commerzbank, Standard Chartered Bank, Royal Bank of Scotland (RBS)."
+  },
+  "meet-our-ceo": {
+    "title": "Gặp CEO của chúng tôi",
+    "description": {
+      "1": "Ramesh Baskaran",
+      "2": ", người sáng lập resolve đã có hơn 25 năm kinh nghiệm trong nhiều lĩnh vực bao gồm tài chính, ngân hàng và phần mềm.",
+      "3": "Trong suốt hành trình sự nghiệp của mình, ông đã phát triển từ kỹ sư phần mềm đến các vị trí lãnh đạo chủ chốt cho nhiều công ty công nghệ toàn cầu và tiến hành các chuyển đổi dữ liệu phức tạp tại châu Á. Đồng thời, Ramesh cũng từng cung cấp dịch vụ tư vấn cho các công ty hàng đầu tại Việt Nam qua hình thức trực tiếp và thông qua một công ty tư vấn thuộc Big 4.",
+      "4": "Hiện tại, ông đang dẫn dắt resolve mở rộng dịch vụ giải pháp phân tích dữ liệu và chuyển đổi số cho nhiều doanh nghiệp tại Việt Nam, hướng tới một cộng đồng kinh doanh đổi mới và phát triển bền vững."
+    }
+  }
+}

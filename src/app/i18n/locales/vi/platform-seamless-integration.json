@@ -1,0 +1,21 @@
+{
+  "platform": "Nền tảng",
+  "title": "Tích hợp dữ liệu mượt mà",
+  "subtitle": "Kết nối dữ liệu của doanh nghiệp dễ dàng đồng thời duy trì tính toàn vẹn của dữ liệu",
+  "description": "Khám phá tính năng đột phá của công cụ BI hàng đầu, cách mạng hóa cách các tổ chức xử lý nhu cầu về dữ liệu cũng như chiến lược kinh doanh của họ. Với hơn 200 đầu kết nối nguồn dữ liệu, giải pháp tân tiến của Sisense giúp quá trình tích hợp dữ liệu trở nên dễ dàng hơn đồng thời đảm bảo tất cả thông tin được bảo vệ và quản lý để đáp ứng những tiêu chuẩn của doanh nghiệp. Được thiết kế để hỗ trợ khả năng mở rộng quy mô, giải pháp duy trì hiệu suất và độ tin cậy, dễ dàng thích ứng với nhu cầu cấp thiết của dữ liệu hiện nay.",
+  "li": {
+    "1": {
+      "title": "Kết nối tới mọi nguồn dữ liệu",
+      "description": "Sisense có thể kết nối với nhiều nguồn dữ liệu khác nhau, bao gồm cơ sở dữ liệu, bảng tính, dịch vụ đám mây và các ứng dụng web. Nó cho phép người dùng tập hợp tất cả dữ liệu của họ vào một nơi để phân tích."
+    },
+    "2": {
+      "title": "Thi hành giám sát & bảo mật dữ liệu",
+      "description": "Sisense có những tính năng bảo mật và quản trị dữ liệu, đảm bảo rằng dữ liệu quan trọng được bảo vệ và tuân thủ các quy định phù hợp với doanh nghiệp."
+    },
+    "3": {
+      "title": "Hỗ trợ khả năng mở rộng",
+      "description": "Sisense được thiết kế để mở rộng theo nhu cầu của tổ chức, bất kể đó là doanh nghiệp nhỏ hay tập đoàn lớn."
+    }
+  },
+  "see-more-videos": "Xem video demo sản phẩm"
+}

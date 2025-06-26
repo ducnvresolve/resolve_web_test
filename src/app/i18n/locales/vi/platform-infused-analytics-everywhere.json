@@ -1,0 +1,17 @@
+{
+  "platform": "Nền tảng",
+  "title": "Nhúng phân tích ở mọi nơi",
+  "subtitle": "Tích hợp linh động những phân tích đã tạo vào các ứng dụng hiện có của doanh nghiệp",
+  "description": "Sisense được thiết kế đặc biệt để tích hợp những phân tích dữ liệu được tạo vào những ứng dụng hiện có của doanh nghiệp đồng thời duy trì được giao diện & nhận dạng thương hiệu của chúng. Bất kể cho doanh nghiệp không có kinh nghiệm lập trình hoặc có một đội ngũ lập trình chuyên dụng, Sisense đồng thời hỗ trợ 2 phương pháp code và no-code, cho phép doanh nghiệp nhúng dashboard & biểu đồ dễ dàng bằng cách sử dụng các iFrame đơn giản hoặc các công cụ SDK tinh chỉnh đa dạng.",
+  "li": {
+    "1": {
+      "title": "Nhúng phân tích vào ứng dụng hiện có",
+      "description": "Sisense có thể được tích hợp vào các ứng dụng và nền tảng khác, cho phép các doanh nghiệp nhúng phân tích được hỗ trợ bởi AI vào sản phẩm hoặc dịch vụ của họ. Điều này đặc biệt hữu ích cho các công ty phần mềm và tổ chức muốn cung cấp thông tin chi tiết dựa trên dữ liệu cho người dùng của họ."
+    },
+    "2": {
+      "title": "Hỗ trợ nhúng dạng code & no-code",
+      "description": "Các dashboard có thể được tạo ra qua giao diện UI của Sisense bằng thao tác kéo & thả đơn giản, sau đó nhúng vào các ứng dụng bằng cách sử dụng iFrame; hoặc doanh nghiệp có thể tùy chỉnh cách các phân tích hiển thị trong ứng dụng của mình bằng cách sử dụng các công cụ SDK đặc trưng và thân thiện cho lập trình của Sisense."
+    }
+  },
+  "see-more-videos": "Xem video demo sản phẩm"
+}

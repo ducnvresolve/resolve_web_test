@@ -1,0 +1,13 @@
+{
+  "subscribe-email": {
+    "placeholder": "Your email...",
+    "button": "Subscribe",
+    "error": {
+      "1": "Error:",
+      "2": "Please try again later.",
+      "invalidEmail": "Invalid email address",
+      "systemError": "System error"
+    },
+    "success": "Email subscription successfully!"
+  }
+}

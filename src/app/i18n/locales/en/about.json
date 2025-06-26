@@ -1,0 +1,46 @@
+{
+  "page": {
+    "title": "About us",
+    "subtitle": "resolve Computing Services Co. Ltd."
+  },
+  "our-mission": {
+    "title": "Our Mission",
+    "description": {
+      "1": "Founded in 2015, <strong>resolve Computing Services Co. Ltd. (resolve)</strong> is a niche data solutions company with a deep focus on data analytics and the application of AI/ML technologies.",
+      "2": "resolve is dedicated to creating innovative and impactful data-driven digital solutions. We aim to foster a sustainable community centered on your success and the advancement of your industry.",
+      "3": "Our vision is clear: to establish resolve as a leading data analytics solution provider based in Vietnam within the near future. We are committed to achieving this through continuous innovation, dedication to customer success, and the relentless pursuit of excellence in the data solutions domain. At resolve, we solve data—it's at the heart of everything we do."
+    }
+  },
+  "our-team": {
+    "title": "Our Team",
+    "description": "Our resolve team is made up of enthusiastic, young, talented, and skilled individuals from different backgrounds who share a common goal. We have a lot of experience and hold qualifications in areas like AWS Cloud Architecture, Cybersecurity, Management, Law, Mathematics, and Computer Science. The team is trained in implementing Sisense. Our team knows to work hard and play hard and mature enough to deliver a quality solution."
+  },
+  "our-values": {
+    "title": "Our Values",
+    "1": {
+      "h": "Client-Centered Success",
+      "p": "We are dedicated to understanding your unique needs and providing custom, data-driven solutions to ensure your success in the digital age."
+    },
+    "2": {
+      "h": "Innovative Problem-Solving",
+      "p": "Our team turns challenges into solutions that drive growth through digital transformation, steering your business toward success."
+    },
+    "3": {
+      "h": "Integrity & Respect",
+      "p": "We truly foster a culture of transparency, trust, and mutual respect for you—every client, partner, and team member."
+    }
+  },
+  "our-achievements": {
+    "title": "Our Achievements",
+    "description": "With regards to projects, we have wide range of experience implementing global data warehouse,  datamarts, BI reporting and analytics,  data integration and business applications (both custom and packaged - CRM, ERP, enterprise AV communication). Providing consulting services for bank digital transformation initiatives such as data driven credit decisioning and digitization of banking services including selectiion of business applications like BI platforms, card systems etc."
+  },
+  "meet-our-ceo": {
+    "title": "Meet Our CEO",
+    "description": {
+      "1": "Ramesh Baskaran",
+      "2": ", the founder of resolve, brings over 25 years of diverse experience in industries including financial services, banking, and software.",
+      "3": "His career journey has taken him from being a software developer to leading global technology teams. He has delivered complex transformations in Asia and provided advisory services to top Vietnamese firms directly and through a Big 4 consulting firm.",
+      "4": "Currently, he is leading resolve's data analytics and digital transformation solution services expansion across various industries in Vietnam, embodying a commitment to innovation and excellence."
+    }
+  }
+}

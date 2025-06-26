@@ -1,0 +1,34 @@
+{
+  "demo": "Demo",
+  "title": "Trình diễn",
+  "subtitle": "Trải nghiệm trực tiếp công nghệ của Sisense qua Compose SDK mới nhất",
+  "dashboard": {
+    "total": "Tổng {{ entity }}",
+    "by": "Theo {{ entity }}",
+    "all": "Tất cả",
+    "clearSelection": "Xóa lựa chọn",
+
+    "revenue": "doanh thu",
+    "unitsSold": "hàng đã bán",
+    "sales": "doanh số",
+    "brands": "nhãn hàng",
+    "gender": "giới tính",
+    "ageRange": "lứa tuổi",
+    "visits": "lượt truy cập",
+    "cost": "Chi phí",
+    "category": "Loại mặt hàng",
+
+    "revenueTrend": "Xu hướng doanh thu",
+    "sitePopularity": "Độ phổ biến của trang web",
+    "demographics": "Tập khách hàng",
+    "geography": "Địa lý"
+  },
+  "video": {
+    "title": "Video giới thiệu",
+    "description": "Xem các video của chúng tôi để hiểu thêm về tính năng & cách sử dụng của Sisense"
+  },
+  "contact": {
+    "title": "Muốn xem thêm?",
+    "description": "Liên lạc với chúng tôi để yêu cầu demo phù hợp với vấn đề doanh nghiệp của bạn"
+  }
+}

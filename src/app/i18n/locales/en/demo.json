@@ -1,0 +1,18 @@
+{
+  "page": {
+    "title": "Demonstration",
+    "subtitle": "Experience our demos to witness Sisense capabilities"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "description": "Experience first-hand Sisense technology via their latest Compose SDK"
+  },
+  "video": {
+    "title": "Video Demonstration",
+    "description": "Watch our videos to get familiar with Sisense functionality & usability"
+  },
+  "contact": {
+    "title": "Want to see more?",
+    "description": "Contact us to request for a demo suitable for your business usecase"
+  }
+}

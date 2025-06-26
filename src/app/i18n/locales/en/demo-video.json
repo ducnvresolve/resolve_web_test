@@ -1,0 +1,13 @@
+{
+  "demo": "Demo",
+  "title": "Video Demonstration",
+  "subtitle": "Watch our videos to get familiar with Sisense functionality & usability",
+  "showcase": {
+    "title": "Showcase",
+    "description": "Experience first-hand Sisense technology via their latest Compose SDK"
+  },
+  "contact": {
+    "title": "Want to see more?",
+    "description": "Contact us to request for a demo suitable for your business usecase"
+  }
+}

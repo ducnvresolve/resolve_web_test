@@ -1,0 +1,21 @@
+{
+  "platform": "Nền tảng",
+  "title": "Tuỳ chỉnh trải nghiệm dữ liệu",
+  "subtitle": "Xử lý và trực quan hóa dữ liệu dựa trên yêu cầu của doanh nghiệp",
+  "description": "Sisense cung cấp các công cụ tinh chỉnh dữ liệu phù hợp, giúp doanh nghiệp thực hiện các quy trình ETL (gồm: trích xuất, chuyển đổi & tải) để thích ứng cho việc phân tích dữ liệu của họ. Trực quan hóa các thông tin phân tích bằng đa dạng loại biểu đồ & đồ thị khác nhau, cùng với sự kết hợp của những tính năng AI, doanh nghiệp có thể tùy chỉnh dashboard dựa theo nhu cầu chuyên biệt của doanh nghiệp đó, cung cấp những góc nhìn mới mẻ và những phân tích mang tính dự đoán nhằm giúp đưa ra các quyết định chính xác dựa trên dữ liệu cho doanh nghiệp của mình.",
+  "li": {
+    "1": {
+      "title": "Phân tích dữ liệu linh hoạt",
+      "description": "Sisense cung cấp một công cụ phân tích mạnh mẽ cho phép người dùng tạo các truy vấn và tính toán phức tạp để khám phá thông tin chi tiết từ dữ liệu của họ. Người dùng có thể thực hiện phân tích ngẫu nhiên và tạo báo cáo tùy chỉnh và bảng dashboard."
+    },
+    "2": {
+      "title": "Trực quan hóa qua đa dạng bảng biểu",
+      "description": "Sisense cung cấp một loạt các tùy chọn trực quan hóa, bao gồm biểu đồ, đồ thị và bảng điều khiển tương tác. Người dùng có thể tạo ra các báo cáo hấp dẫn và tương tác để trình bày các phát hiện của họ một cách hiệu quả."
+    },
+    "3": {
+      "title": "Ứng dụng trí tuệ nhân tạo & học máy",
+      "description": "Sisense tích hợp các khả năng AI và học máy cho phân tích dự đoán và dự báo dữ liệu, giúp các doanh nghiệp dự đoán xu hướng tương lai và đưa ra quyết định chủ động. Các tính năng bao gồm: Gợi ý bảng biểu, xu hướng, lý giải số liệu, dự đoán, AI chatbot và nhiều hơn nữa."
+    }
+  },
+  "see-more-videos": "Xem video demo sản phẩm"
+}

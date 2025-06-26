@@ -1,0 +1,25 @@
+{
+  "contactForm": {
+    "title": "Đơn liên hệ",
+    "name": "Tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "company": "Công ty",
+    "category": {
+      "title": "Chủ đề",
+      "contact": "Liên lạc & hợp tác",
+      "demo": "Yêu cầu dùng thử",
+      "others": "Khác"
+    },
+    "subject": "Đề mục",
+    "content": "Nội dung",
+    "subscribe": "Đăng ký nhận email từ resolve",
+    "submit": "Gửi",
+    "error": {
+      "required": "Vui lòng điền các thông tin bắt buộc",
+      "email": "Vui lòng nhập email hợp lệ",
+      "system": "Hệ thống lỗi. Vui lòng thử lại sau."
+    },
+    "success": "Cám ơn vì đã liên hệ! Chúng tôi sẽ trả lời bạn sớm nhất có thể."
+  }
+}

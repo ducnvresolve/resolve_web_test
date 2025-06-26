@@ -1,0 +1,59 @@
+# Redirect HTTP and non-www to HTTPS www
+server {
+    listen 80;
+    server_name resolve.com.vn www.resolve.com.vn;
+
+    # Redirect non-www to www
+    if ($host = resolve.com.vn) {
+        return 301 https://www.resolve.com.vn$request_uri;
+    }
+
+    # Redirect HTTP to HTTPS
+    location / {
+        return 301 https://www.resolve.com.vn$request_uri;
+    }
+
+    # Allow Certbot to create/renew SSL certificates
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;  # Ensure this directory exists
+    }
+}
+
+# Main server block for HTTPS
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name resolve.com.vn www.resolve.com.vn;
+
+    # SSL certificate settings
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256';
+    ssl_certificate /etc/letsencrypt/live/resolve.com.vn/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/resolve.com.vn/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    # Root directory for static files
+    root /var/www/resolve.com.vn;
+    index index.html;
+
+    # Proxy pass for backend server (API or dynamic content)
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+    # this code redirect the access to another folder
+    location /_next/ {
+      alias /srv/udemii-fe/.next/;
+      expires 30d;
+      access_log on;
+    }
+
+    # Optional logging for debugging
+    access_log /var/log/nginx/resolve.com.vn.access.log;
+    error_log /var/log/nginx/resolve.com.vn.error.log;
+}

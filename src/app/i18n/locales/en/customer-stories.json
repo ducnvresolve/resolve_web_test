@@ -1,0 +1,15 @@
+{
+  "page": {
+    "title": "Customer Stories",
+    "subtitle": "Collection of stories from customers using our services"
+  },
+  "featured": "Featured",
+  "read": "Read {{ entity }}",
+  "article": "article",
+  "case-study": "case study",
+  "contact": {
+    "title": "Want to see more?",
+    "description": "Reach out to us to request for a case study suitable for your business usecase",
+    "action": "Contact us"
+  }
+}

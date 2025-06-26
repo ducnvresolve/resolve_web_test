@@ -1,0 +1,1 @@
+export { CompanyStoryBanner } from "./CompanyStoryBanner";

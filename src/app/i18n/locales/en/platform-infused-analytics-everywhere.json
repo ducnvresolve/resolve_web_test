@@ -1,0 +1,17 @@
+{
+  "platform": "Platform",
+  "title": "Infused Analytics Everywhere",
+  "subtitle": "Embed built analytics to your existing applications dynamically",
+  "description": "Sisense is specifically designed to infuse your built data analytics to your very own applications while maintaining their unique look & feel. Whether you have no coding experience or have a dedicated coding team, Sisense supports no-code & pro-code approach, allows you to embed dashboards & charts seamlessly either using simple iFrames or using dynamically configurable SDKs.",
+  "li": {
+    "1": {
+      "title": "Embed analytics to your apps",
+      "description": "Sisense can be integrated into other applications and platforms, allowing businesses to embed AI-powered analytics directly into their products or services. This is particularly useful for software companies and organizations that want to provide data-driven insights to their users."
+    },
+    "2": {
+      "title": "Support both code-first & code-free",
+      "description": "Dashboards can be created via Sisense UI with simple drag-and-drop then embedded to your applications using iFrames; or you can fully customize the way analytics present in your apps by using Sisense's unique developer-friendly SDKs."
+    }
+  },
+  "see-more-videos": "See More Video Demonstration"
+}

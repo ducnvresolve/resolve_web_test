@@ -1,0 +1,25 @@
+{
+  "contactForm": {
+    "title": "Enquiry Form",
+    "name": "Name",
+    "phone": "Phone number",
+    "email": "Email",
+    "company": "Company",
+    "category": {
+      "title": "Category",
+      "contact": "Contact & Affiliate",
+      "demo": "Request a Demo",
+      "others": "Others"
+    },
+    "subject": "Subject",
+    "content": "Content",
+    "subscribe": "Subscribe to resolve's newsletter",
+    "submit": "Submit",
+    "error": {
+      "required": "Please fill all required fields",
+      "email": "Please type in valid email address",
+      "system": "System error. Please try again later."
+    },
+    "success": "Thanks for contacting! We'll be in touch with you soon."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "page": {
+    "title": "Câu chuyện khách hàng",
+    "subtitle": "Tổng hợp trải nghiệm của những khách hàng sử dụng dịch vụ của chúng tôi"
+  },
+  "featured": "Nổi bật",
+  "read": "Đọc {{ entity }}",
+  "article": "bài viết",
+  "case-study": "case study",
+  "contact": {
+    "title": "Muốn xem thêm?",
+    "description": "Liên lạc với chúng tôi để yêu cầu case study phù hợp với vấn đề doanh nghiệp của bạn",
+    "action": "Liên lạc với chúng tôi"
+  }
+}

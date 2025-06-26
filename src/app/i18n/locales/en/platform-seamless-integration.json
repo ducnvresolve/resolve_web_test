@@ -1,0 +1,21 @@
+{
+  "platform": "Platform",
+  "title": "Seamless Integration",
+  "subtitle": "Connect your data to analytics with ease while maintaining data integrity",
+  "description": "Discover a leading business intelligence tool that revolutionizes the way organizations handle their needs for their data as well as their business strategies. With over 200 data source connectors, Sisense's cutting-edge solution eases out the data integration process while ensuring that all information is protected and managed according to industry standards. Designed to support scalability, the solution effortlessly adapts to growing data demands, maintaining consistent performance and reliability.",
+  "li": {
+    "1": {
+      "title": "Connect to numerous data sources",
+      "description": "Sisense can connect to a wide range of data sources, including databases, spreadsheets, cloud services, and web applications. It enables users to bring all of their data together in one place for analysis."
+    },
+    "2": {
+      "title": "Enforce data security & governance",
+      "description": "Sisense includes features for data security and governance, ensuring that sensitive data is not only protected but also compliant with relevant regulations."
+    },
+    "3": {
+      "title": "Support scalability",
+      "description": "Sisense is designed to scale with the needs of the organization, whether it's a small business or a large enterprise."
+    }
+  },
+  "see-more-videos": "See More Video Demonstration"
+}

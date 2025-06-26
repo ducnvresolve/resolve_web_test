@@ -1,0 +1,80 @@
+{
+  "base": {
+    "learn-more": "Tìm hiểu thêm"
+  },
+  "hero": {
+    "title": "Chuyển đổi doanh nghiệp qua quyết định dựa trên dữ liệu",
+    "subtitle": "resolve cam kết tạo ra các giải pháp số hóa và phân tích dữ liệu sáng tạo, mang lại tác động mạnh mẽ qua việc sử dụng công nghệ tân tiến của nền tảng Sisense Fusion.",
+    "features": {
+      "1": "Kết nối với mọi nguồn dữ liệu",
+      "2": "Tùy chỉnh trải nghiệm dữ liệu",
+      "3": "Nhúng phân tích ở mọi nơi"
+    },
+    "see-demo": "Trải nghiệm demo"
+  },
+  "why-data-driven": {
+    "title": "Tại sao doanh nghiệp cần quyết định dựa trên dữ liệu?",
+    "1": {
+      "title": "Nâng cao hiệu quả hoạt động",
+      "description": "Đưa ra quyết định dựa trên dữ liệu tin cậy và bằng chứng, không phải phỏng đoán. Giảm đáng kể rủi ro và cải thiện kết quả kinh doanh bất kể sự thay đổi của thị trường và môi trường cạnh tranh."
+    },
+    "2": {
+      "title": "Tối ưu trải nghiệm khách hàng",
+      "description": "Nâng cao hiểu biết về khách hàng để tinh chỉnh sản phẩm và dịch vụ nhằm cải thiện sự hài lòng của khách hàng. Từ đó tăng tính cạnh tranh của sản phẩm & tối giản chi phí tiếp thị."
+    },
+    "3": {
+      "title": "Cải thiện quản lý rủi ro",
+      "description": "Dự báo và giảm thiểu rủi ro tiềm ẩn, nâng cao việc chủ động trong chiến lược và bảo mật trong kinh doanh."
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "description": "Được thành lập vào năm 2015, công ty TNHH dịch vụ xử lý Điện Toán (resolve) là công ty giải pháp dữ liệu chuyên biệt tập trung sâu vào phân tích dữ liệu và ứng dụng các công nghệ trí tuệ nhân tạo (AI) và học máy (ML). resolve cam kết tạo ra các giải pháp số hóa và phân tích dữ liệu sáng tạo, mang lại tác động mạnh mẽ. Mục tiêu của chúng tôi là xây dựng một cộng đồng bền vững, tập trung vào sự thành công của bạn và sự phát triển của ngành nghề bạn đang hoạt động.",
+    "authorized-partners": "Đối tác và khách hàng của chúng tôi"
+  },
+  "solutions": {
+    "title": "Các giải pháp được cung cấp bởi resolve",
+    "1": {
+      "title": "Chuyển đổi số dựa trên dữ liệu",
+      "description": "Biến dữ liệu thành các phân tích thông tin hữu ích, thúc đẩy tăng trưởng và đảm bảo doanh nghiệp bứt phá dẫn đầu trong kỷ nguyên số bất kể hình thức kết nối nguồn dữ liệu hiện đang sử dụng"
+    },
+    "2": {
+      "title": "Phân tích dữ liệu số",
+      "description": "Quản lý và tận dụng dữ liệu bằng việc sử dụng các công cụ phân tích mạnh mẽ, trí tuệ nhân tạo (AI) và học máy (ML), giúp các doanh nghiệp giải quyết khó khăn theo từng nhu cầu cụ thể"
+    },
+    "3": {
+      "title": "Phân tích nhúng",
+      "description": "Tích hợp mượt mà các phân tích dữ liệu lên các ứng dụng hiện có của doanh nghiệp và duy trì nhận diện thương hiệu trên ứng dụng mà không gặp phải gián đoạn hay cản trở"
+    },
+    "see-all-solutions": "Xem tất cả các giải pháp"
+  },
+  "platform": {
+    "title": "Cách Sisense có thể giúp doanh nghiệp đạt được phân tích dựa trên dữ liệu",
+    "1": {
+      "title": "Tích hợp dữ liệu mượt mà",
+      "description": "Hỗ trợ doanh nghiệp chuyển đổi từ dữ liệu sang thông số phân tích then chốt bất kể họ sử dụng nguồn dữ liệu gốc gì, đồng thời duy trì tính toàn vẹn của dữ liệu bao gồm phân quyền và bảo mật dữ liệu.",
+      "li": {
+        "1": "Kết nối tới mọi nguồn dữ liệu",
+        "2": "Thi hành giám sát & bảo mật dữ liệu",
+        "3": "Hỗ trợ khả năng mở rộng"
+      }
+    },
+    "2": {
+      "title": "Tuỳ chỉnh trải nghiệm dữ liệu",
+      "description": "Thực hiện các tinh chỉnh và tính toán với sự trợ giúp của trí tuệ nhân tạo & học máy (AI/ML) rồi hiển thị bằng lượng biểu đồ đa dạng sẵn có, nhằm cung cấp cho doanh nghiệp những góc nhìn hữu ích để từ đó ra quyết định dựa trên dữ liệu.",
+      "li": {
+        "1": "Phân tích dữ liệu linh hoạt",
+        "2": "Trực quan hóa qua đa dạng bảng biểu",
+        "3": "Ứng dụng trí tuệ nhân tạo & học máy"
+      }
+    },
+    "3": {
+      "title": "Nhúng phân tích ở mọi nơi",
+      "description": "Cung cấp các công cụ và công nghệ bao gồm iFrame và SDK để nhúng những phân tích dữ liệu đã được dựng vào các nền tảng hiện có một cách tự nhiên, giúp người dùng cảm thấy họ đang sử dụng cùng một ứng dụng.",
+      "li": {
+        "1": "Nhúng phân tích vào ứng dụng hiện có",
+        "2": "Hỗ trợ nhúng dạng code & no-code"
+      }
+    }
+  }
+}

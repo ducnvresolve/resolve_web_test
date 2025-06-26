@@ -1,0 +1,21 @@
+{
+  "platform": "Platform",
+  "title": "Customized Data Experience",
+  "subtitle": "Digest and visualize data based on your unique needs",
+  "description": "Sisense offers data preparation tools that help you perform ETL (Extract, Transform, Load) processes, making it suitable for your data analysis. As you visualize insights using numerous types of customizable graphs & charts, with the addition of AI-powered features, you can tailor dashboards to your unique needs, providing eye-opening insights and predictive analytics to help you make accurate data-driven decisions for your business.",
+  "li": {
+    "1": {
+      "title": "Analyze data dynamically",
+      "description": "Sisense provides a powerful analytics engine that enables users to create complex queries and calculations to uncover insights from their data. Users can perform ad-hoc analysis and create custom reports and dashboards."
+    },
+    "2": {
+      "title": "Visualize using various graphs",
+      "description": "Sisense offers a range of visualization options, including charts, graphs, and interactive dashboards. Users can create visually appealing and interactive reports to present their findings effectively."
+    },
+    "3": {
+      "title": "Apply AI/ML capabilities",
+      "description": "Sisense incorporates AI and machine learning capabilities for predictive analytics and data forecasting, helping businesses anticipate future trends and make proactive decisions. The features include: Exploration Paths, Trend, Explanations, Forcast, AI chatbot and many more."
+    }
+  },
+  "see-more-videos": "See More Video Demonstration"
+}

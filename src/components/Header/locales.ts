@@ -1,0 +1,67 @@
+import type { Locale } from "@/types/locale.types"
+
+export const HEADER_NAME = "header"
+
+export const localesHeader: Locale[] = [
+  { text: "base.learn-more" },
+  { text: "base.read-brochure" },
+  { text: "base.contact-and-collab" },
+
+  { text: "about.title" },
+  { text: "about.description" },
+  { text: "about.who-we-are" },
+  { text: "about.what-we-do" },
+  { text: "about.resolve.title" },
+  { text: "about.resolve.description" },
+  { text: "about.resolve.intro" },
+  { text: "about.brochure.title" },
+  { text: "about.brochure.description" },
+  { text: "about.partners.title" },
+  { text: "about.partners.description" },
+  { text: "about.contact.title" },
+  { text: "about.contact.description" },
+  { text: "about.jobs.title" },
+  { text: "about.jobs.description" },
+
+  { text: "about.solutions.title" },
+  { text: "about.solutions.description" },
+  { text: "about.solutions.1.title" },
+  { text: "about.solutions.1.description" },
+  { text: "about.solutions.2.title" },
+  { text: "about.solutions.2.description" },
+  { text: "about.solutions.3.title" },
+  { text: "about.solutions.3.description" },
+  { text: "about.solutions.see-all-solutions" },
+
+  { text: "platform.title" },
+  { text: "platform.description" },
+  { text: "platform.features" },
+  { text: "platform.video-introduction" },
+  { text: "platform.sisense.title" },
+  { text: "platform.sisense.description" },
+  { text: "platform.1.title" },
+  { text: "platform.1.description" },
+  { text: "platform.2.title" },
+  { text: "platform.2.description" },
+  { text: "platform.3.title" },
+  { text: "platform.3.description" },
+  { text: "platform.learn-more" },
+
+  { text: "resources.title" },
+  { text: "resources.description" },
+  { text: "resources.read-article" },
+  { text: "resources.external-link" },
+  { text: "resources.articles.title" },
+  { text: "resources.articles.description" },
+  { text: "resources.customer-stories.title" },
+  { text: "resources.customer-stories.description" },
+  { text: "resources.showcase.title" },
+  { text: "resources.showcase.description" },
+  { text: "resources.video.title" },
+  { text: "resources.video.description" },
+
+  { text: "blog.title" },
+  { text: "blog.read-more" },
+
+  { text: "see-demo" },
+]

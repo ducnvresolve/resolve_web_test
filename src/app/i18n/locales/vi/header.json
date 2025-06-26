@@ -1,0 +1,100 @@
+{
+  "base": {
+    "learn-more": "Tìm hiểu thêm"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "description": "Tổng quan về công ty resolve: công ty, cộng tác cũng như những cơ hội công việc của chúng tôi",
+    "who-we-are": "Chúng tôi là ai",
+    "what-we-do": "Chúng tôi làm gì",
+    "resolve": {
+      "title": "Về công ty",
+      "description": "Giới thiệu về resolve - đội ngũ, nhiệm vụ và những giá trị của chúng tôi",
+      "intro": "Được thành lập vào năm 2015, công ty TNHH dịch vụ xử lý Điện Toán (resolve) là công ty giải pháp dữ liệu chuyên biệt tập trung sâu vào phân tích dữ liệu và ứng dụng các công nghệ trí tuệ nhân tạo (AI) và học máy (ML)"
+    },
+    "brochure": {
+      "title": "Brochure",
+      "description": "Tải xuống & đọc brochure giới thiệu công ty"
+    },
+    "partners": {
+      "title": "Đối tác",
+      "description": "Tìm hiểu thêm về những đối tác chiến lược cũng như các đối tác ủy quyền khác của chúng tôi"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "description": "Sẵn sàng để đưa quyết định dựa trên dữ liệu? Hãy liên kết với chúng tôi"
+    },
+    "jobs": {
+      "title": "Tuyển dụng",
+      "description": "Hứng thú với công việc của chúng tôi? Tham gia resolve ngay!"
+    },
+    "solutions": {
+      "title": "Giải pháp",
+      "description": "Các dịch vụ được cung cấp bởi resolve",
+      "1": {
+        "title": "Chuyển đổi số dựa trên dữ liệu",
+        "description": "Số hóa dữ liệu của bạn thành phân tích thông tin hữu ích"
+      },
+      "2": {
+        "title": "Phân tích dữ liệu số",
+        "description": "Ứng dụng các công cụ và AI vào phân tích dữ liệu"
+      },
+      "3": {
+        "title": "Phân tích nhúng",
+        "description": "Tích hợp nhúng phân tích dữ liệu lên ứng dụng hiện có"
+      },
+      "see-all-solutions": "Xem tất cả các giải pháp"
+    }
+  },
+  "platform": {
+    "title": "Nền tảng",
+    "description": "Tất cả tính năng hiện có của nền tảng Sisense Fusion",
+    "features": "Các tính năng",
+    "video-introduction": "Video giới thiệu",
+    "sisense": {
+      "title": "Nền tảng Sisense Fusion",
+      "description": "Phần mềm trí tuệ kinh doanh (BI) hàng đầu & tích hợp phân tích với các công cụ phân tích dữ liệu mạnh mẽ và các tính năng sử dụng trí tuệ nhân tạo (AI)"
+    },
+    "1": {
+      "title": "Tích hợp dữ liệu mượt mà",
+      "description": "Kết nối dữ liệu của doanh nghiệp dễ dàng đồng thời duy trì tính toàn vẹn của dữ liệu"
+    },
+    "2": {
+      "title": "Tùy chỉnh trải nghiệm dữ liệu",
+      "description": "Xử lý và trực quan hóa dữ liệu dựa trên yêu cầu của doanh nghiệp"
+    },
+    "3": {
+      "title": "Nhúng phân tích ở mọi nơi",
+      "description": "Tích hợp linh động những phân tích đã tạo vào các ứng dụng hiện có của doanh nghiệp"
+    },
+    "learn-more": "Xem video demo sản phẩm"
+  },
+  "resources": {
+    "title": "Tài liệu",
+    "description": "Các tài liệu hiện có của resolve",
+    "read-article": "Đọc bài viết",
+    "external-link": "Đường link ngoài",
+    "articles": {
+      "title": "Bài viết",
+      "description": "Xem các bài viết của resolve"
+    },
+    "customer-stories": {
+      "title": "Câu chuyện khách hàng",
+      "description": "Tổng hợp trải nghiệm của những khách hàng sử dụng dịch vụ của chúng tôi"
+    },
+    "showcase": {
+      "title": "Trình diễn",
+      "description": "Chiêm ngưỡng tính năng của nền tảng Sisense"
+    },
+    "video": {
+      "title": "Video giới thiệu",
+      "description": "Xem các video demo của nền tảng Sisense Fusion"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "read-more": "Đọc thêm"
+   
+  },
+  "see-demo": "Trải nghiệm demo"
+}

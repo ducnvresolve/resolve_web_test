@@ -1,0 +1,80 @@
+{
+  "base": {
+    "learn-more": "Learn More"
+  },
+  "hero": {
+    "title": "Transform your business using data-driven decisions",
+    "subtitle": "resolve is dedicated to create innovative and impactful data-driven digital solutions using the state-of-the-art technology of Sisense Fusion Platform.",
+    "features": {
+      "1": "Connect to any data",
+      "2": "Customize data experience",
+      "3": "Infuse analytics everywhere"
+    },
+    "see-demo": "See Demonstration"
+  },
+  "why-data-driven": {
+    "title": "Why businesses should make data-driven decisions?",
+    "1": {
+      "title": "Enhanced efficiency",
+      "description": "Make decisions based on data and evidence, not gut. Significantly reduce risks & improve business outcomes regardless of market shifts and competitive dynamics."
+    },
+    "2": {
+      "title": "Elevated customer insights",
+      "description": "Unlock insightful understanding to refine products and services to increase customer satisfaction. Increase product competitiveness & optimize marketing efforts as the result."
+    },
+    "3": {
+      "title": "Improved risk management",
+      "description": "Forcast and mitigate potential risks, enhance proactive business strategies & security."
+    }
+  },
+  "about": {
+    "title": "About us",
+    "description": "Founded in 2015, resolve Computing Services Co. Ltd. (resolve) is a niche data solutions company with a deep focus on data analytics and the application of AI/ML technologies. resolve is dedicated to creating innovative and impactful data-driven digital solutions. We aim to foster a sustainable community centered on your success and the advancement of your industry.",
+    "authorized-partners": "Our partners & Customers"
+  },
+  "solutions": {
+    "title": "Solutions provided by resolve",
+    "1": {
+      "title": "Data-Driven Digital Transformation",
+      "description": "Transform your data into insightful analytics, ensure that your business excels in the digital age regardless of your current data source connection methods"
+    },
+    "2": {
+      "title": "Data & Analytics",
+      "description": "Manage and leverage your data using powerful analytical tools, artificial intelligence (AI) and machine learning (ML), allow you to delegate tasks according to your unique requirements"
+    },
+    "3": {
+      "title": "Embedded Analytics",
+      "description": "Seamlessly integrate your data analytics into your existing applications and maintain the look & feel throughout your applications without any adverse impacts"
+    },
+    "see-all-solutions": "See all solutions"
+  },
+  "platform": {
+    "title": "How Sisense can help businesses achieve data-driven insights",
+    "1": {
+      "title": "Seamless Integration",
+      "description": "Help transform data into powerful data-driven analytics regardless of their original data sources while maintain data integrity including role-based data permissions and data security.",
+      "li": {
+        "1": "Connect to numerous data sources",
+        "2": "Enforce data security & governance",
+        "3": "Support scalability"
+      }
+    },
+    "2": {
+      "title": "Customized Data Experience",
+      "description": "Perform alterations and calculations with the help of AI/ML then display them using numerous types of charts and graphs available to provide helpful insights to make data-driven decisions as the result.",
+      "li": {
+        "1": "Analyze data dynamically",
+        "2": "Visualize using various graphs",
+        "3": "Apply AI/ML capabilities"
+      }
+    },
+    "3": {
+      "title": "Infused Analytics Everywhere",
+      "description": "Provide tools & technology including iFrames and SDKs to embed built data analytics to platforms natively to make users feel they are in the same apps.",
+      "li": {
+        "1": "Embed analytics to your apps",
+        "2": "Support both code-first & code-free"
+      }
+    }
+  }
+}

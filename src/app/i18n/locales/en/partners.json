@@ -1,0 +1,16 @@
+{
+  "page": {
+    "title": "Partners",
+    "subtitle": "List of our authorized members & partners"
+  },
+  "partners": {
+    "title": "Our Solution Partner",
+    "1": "<strong>Sisense</strong> is a leading business intelligence and analytics company that specializes in empowering organizations to make data-driven decisions. Founded in 2004, the company is known for its innovative approach to data integration and visualization, offering a platform that simplifies the complexity of data analysis. Sisense provides tools for aggregating and analyzing large volumes of data, enabling businesses to uncover insights and drive strategic growth. With a focus on scalability and ease of use, Sisense has become a preferred choice for companies seeking to leverage their data more effectively.",
+    "2": "<strong>Viettel Cloud</strong> is a leading cloud computing service provider in Vietnam, offering innovative and reliable solutions tailored for businesses of all sizes. With a focus on security, scalability, and flexibility, Viettel Cloud empowers organizations to harness the full potential of digital transformation. From cloud storage and computing to advanced data analytics and AI services, Viettel Cloud delivers cutting-edge technology backed by exceptional support, ensuring that businesses can thrive in an increasingly digital world.",
+    "3": "<strong>Cloud AZ</strong> is a leading information technology company in Vietnam that specializes in providing digital transformation solutions and cloud services. Since its establishment, CloudAZ has supported over 500 businesses in migrating to cloud platforms, resulting in significant cost savings of millions of USD in operational expenses. Notably, in May 2021, CloudAZ became the first Premier Partner of Google Cloud in Vietnam, highlighting its strong growth and reputation in the cloud services sector."
+  },
+  "others": {
+    "title": "Other Authorized Partners & Members",
+    "description": "As we operate in Vietnam, we take great pride in being an authorized partner & member of various local organizations. Our commitment is to deliver exceptional services and solutions to businesses in our region, reflecting our dedication to excellence and local engagement."
+  }
+}

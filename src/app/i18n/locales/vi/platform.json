@@ -1,0 +1,25 @@
+{
+  "page": {
+    "title": "Nền tảng",
+    "subtitle": "Các tính năng hiện có của nền tảng Sisense Fusion"
+  },
+  "learn-more": "Tìm hiểu thêm",
+  "features": {
+    "1": {
+      "title": "Tích hợp dữ liệu mượt mà",
+      "description": "Kết nối dữ liệu của doanh nghiệp dễ dàng đồng thời duy trì tính toàn vẹn của dữ liệu"
+    },
+    "2": {
+      "title": "Tùy chỉnh trải nghiệm dữ liệu",
+      "description": "Xử lý và trực quan hóa dữ liệu dựa trên yêu cầu của doanh nghiệp"
+    },
+    "3": {
+      "title": "Nhúng phân tích ở mọi nơi",
+      "description": "Tích hợp linh động những phân tích đã tạo vào các ứng dụng hiện có của doanh nghiệp"
+    }
+  },
+  "video": {
+    "title": "Tổng quan về Sisense",
+    "button": "Xem video demo sản phẩm"
+  }
+}

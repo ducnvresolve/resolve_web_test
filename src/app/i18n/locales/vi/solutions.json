@@ -1,0 +1,44 @@
+{
+  "page": {
+    "title": "Giải pháp",
+    "subtitle": "Các dịch vụ tư vấn & giải pháp được cung cấp bởi resolve"
+  },
+  "data-driven-digital-transformation": {
+    "title": "Chuyển đổi số dựa trên dữ liệu",
+    "p": {
+      "1": "Chúng tôi đề cao tầm quan trọng của mỗi bước đi trên hành trình dữ liệu, từ hiểu biết đến tối ưu hóa quá trình thu thập và phân tích, để cung cấp thông tin thực sự cần thiết hỗ trợ việc ra quyết định thông minh. Bởi vậy, các phân tích dữ liệu sẽ được kết hợp trực tiếp vào sản phẩm của doanh nghiệp, bất kể mọi thiết lập kỹ thuật hiện có; được lưu và triển khai trên mọi lưu trữ đám mây — Single-tenant hoặc Multi-tenant — với sự kiểm soát và bảo mật hoàn toàn.",
+      "2": "Chuyên gia phân tích của chúng tôi tận dụng dữ liệu để tạo ra các giải pháp độc đáo, dựa trên dữ liệu, được cá nhân hóa cho thách thức của từng doanh nghiệp. Không chỉ hỗ trợ triển khai công nghệ, chúng tôi giúp biến đổi quy trình kinh doanh, văn hóa và chiến lược của doanh nghiệp để tận dụng trọn vẹn lợi ích của chuyển đổi số.",
+      "3": "resolve tự hào mang lại dịch vụ chuyển đổi số dựa trên dữ liệu độc đáo nhất cho các lĩnh vực kinh doanh tại Việt Nam. Chúng tôi biến dữ liệu thành thông tin hữu ích, thúc đẩy tăng trưởng và đảm bảo doanh nghiệp bứt phá dẫn đầu trong kỷ nguyên số. Đồng thời, chúng tôi cam kết doanh nghiệp được điều hướng bởi chuyên gia đầu ngành, cùng giải pháp xử lý dữ liệu sáng tạo và đội ngũ hỗ trợ nhiệt tình."
+    },
+    "li": {
+      "1": "Kết nối dữ liệu từ mọi nguồn",
+      "2": "Triển khai trên mọi lưu trữ đám mây",
+      "3": "Duy trì kiểm soát và bảo mật dữ liệu"
+    }
+  },
+  "data-and-analytics": {
+    "title": "Phân tích dữ liệu số",
+    "p": {
+      "1": "Trong kỷ nguyên chuyển đổi số, dữ liệu là chất xúc tác cho sự đổi mới. Tại resolve, dịch vụ Phân tích dữ liệu số hỗ trợ thu thập, quản lý và tận dụng nguồn tài nguyên thiết yếu này, cung cấp các giải pháp có thể tùy chỉnh phù hợp với nhu cầu độc đáo của doanh nghiệp.",
+      "2": "Chúng tôi hỗ trợ khách hàng xây dựng các khung phân tích toàn diện từ đầu đến cuối bằng cách sử dụng nền tảng Sisense Fusion. Bằng cách tận dụng nền tảng này, chúng tôi giúp các tổ chức khai thác tối đa tiềm năng của dữ liệu, biến nó thành những thông tin chi tiết mang tính hành động, thúc đẩy việc ra quyết định thông minh và tăng trưởng kinh doanh.",
+      "3": "\"Phân tích dữ liệu số\" không chỉ là một dịch vụ mà còn là một cam kết từ resolve. Với kinh nghiệm và chuyên môn sâu rộng, resolve cung cấp giải pháp quản lý dữ liệu toàn diện, tiết kiệm chi phí và an toàn, thúc đẩy sự chuyển đổi số cho doanh nghiệp của bạn."
+    },
+    "li": {
+      "1": "Xây dựng phân tích dữ liệu thông minh",
+      "2": "Mở khóa tri thức từ trí tuệ nhân tạo/học máy",
+      "3": "Trực quan hóa qua đa dạng bảng biểu"
+    }
+  },
+  "embedded-analytics": {
+    "title": "Phân tích nhúng",
+    "p": {
+      "1": "Với cương vị là đối tác ủy quyền của Sisense tại Việt Nam chúng tôi mang đến các giải pháp phân tích dữ liệu tiên tiến và dễ dàng tiếp cận. Bằng cách tích hợp và nhúng các khả năng phân tích vào chính ứng dụng sẵn có, chúng tôi giúp khai thác những thông tin dữ liệu mạnh mẽ, thúc đẩy các quyết định thông minh và nâng cao hiệu suất kinh doanh của doanh nghiệp.",
+      "2": "Chúng tôi tích hợp hệ thống xử lý dữ liệu thông minh của Sisense một cách mượt mà không gián đoạn trong khi vẫn duy trì được sự nhận diện thương hiệu trên ứng dụng hiện có của doanh nghiệp. Từ đó, hỗ trợ đắc lực trong khai thác thông tin dữ liệu, đưa ra các quyết định có căn cứ và nâng cao hiệu suất kinh doanh. Chúng tôi đảm bảo rằng doanh nghiệp luôn đi tiên phong trông thời đại số hóa, mở ra các cơ hội mới cho sự phát triển và thành công."
+    },
+    "li": {
+      "1": "Tích hợp dữ liệu tới ứng dụng mượt mà",
+      "2": "Duy trì nhận diện thương hiệu",
+      "3": "Hỗ trợ no-code và pro-code"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "subscribe-email": {
+    "placeholder": "Email của bạn...",
+    "button": "Đăng ký",
+    "error": {
+      "1": "Lỗi:",
+      "2": "Vui lòng thử lại sau.",
+      "invalidEmail": "Email không hợp lệ",
+      "systemError": "Hệ thống lỗi"
+    },
+    "success": "Đăng ký email thành công!"
+  }
+}

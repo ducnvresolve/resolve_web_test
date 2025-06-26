@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sisense - Seamless Data Integration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f8f8fa;
+        margin: 0;
+        padding: 0;
+      }
+      .breadcrumb {
+        font-size: 0.98rem;
+        color: #a084e8;
+        margin-top: 32px;
+        margin-bottom: 12px;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 32px;
+      }
+      .breadcrumb a {
+        color: #a084e8;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .breadcrumb span {
+        margin: 0 6px;
+        color: #a084e8;
+      }
+      .header-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 1100px;
+        margin: 0 auto 0 auto;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 2px 16px #0001;
+        padding: 32px 32px 0 32px;
+        gap: 40px;
+      }
+      .header-info {
+        flex: 1;
+        margin-bottom: 24px;
+      }
+      .header-info h1 {
+        color: #22223b;
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        line-height: 1.2;
+      }
+      .header-info .subtitle {
+        font-size: 1.25rem;
+        color: #4b2991;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+      }
+      .header-illustration {
+        min-width: 260px;
+        max-width: 340px;
+        margin-top: 12px;
+      }
+      .header-illustration img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px #0002;
+      }
+      .main-content {
+        width: 100%;
+        background: #f6f6fa;
+        border-radius: 16px;
+        margin: 32px auto 0 auto;
+        box-shadow: 0 2px 12px #0001;
+        padding: 32px 0 32px 0;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+      }
+      .content-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        justify-content: flex-start;
+        padding-left: 40px;
+        padding-right: 0;
+      }
+      .content-left .desc {
+        font-size: 1.08rem;
+        line-height: 1.7;
+        color: #22223b;
+        margin-bottom: 12px;
+      }
+      .icon-feature {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+      .icon-feature img {
+        width: 38px;
+        height: 38px;
+        object-fit: contain;
+        margin-top: 2px;
+      }
+      .icon-feature .icon-label {
+        font-size: 1.05rem;
+        color: #6c3fc5;
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+      .content-right {
+        flex: 1.2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-right: 40px;
+        min-width: 320px;
+      }
+      .screenshot {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 2px 12px #0002;
+        padding: 16px;
+        margin-bottom: 8px;
+        width: 100%;
+        max-width: 480px;
+      }
+      .screenshot img {
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+      }
+      .caption {
+        font-size: 0.98rem;
+        color: #666;
+        margin-top: 8px;
+        text-align: center;
+      }
+      @media (max-width: 900px) {
+        .header-section,
+        .main-content {
+          flex-direction: column;
+          padding: 16px 8px 0 8px;
+          gap: 16px;
+        }
+        .content-left,
+        .content-right {
+          padding: 0 12px;
+        }
+        .screenshot {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header-section">
+      <div
+        class="breadcrumb"
+        style="padding-left: 0; margin-top: 0; margin-bottom: 18px"
+      >
+        <a href="/en/platform">Nền tảng</a>
+        <span>&gt;</span>
+        <a href="/en/platform/product/sisense">Tích hợp dữ liệu mượt mà</a>
+      </div>
+      <div class="header-info">
+        <h1>
+          Kết nối dữ liệu của doanh nghiệp dễ dàng đồng thời duy trì tính toàn
+          vẹn của dữ liệu
+        </h1>
+        <div class="subtitle">Tích hợp dữ liệu mượt mà</div>
+        <p>
+          Khám phá tính năng đột phá của công cụ BI hàng đầu, cách mạng hóa cách
+          các tổ chức xử lý nhu cầu về dữ liệu cũng như chiến lược kinh doanh
+          của họ. Với hơn 200 đầu kết nối nguồn dữ liệu, giải pháp tân tiến của
+          Sisense giúp quá trình tích hợp dữ liệu trở nên dễ dàng hơn đồng thời
+          đảm bảo tất cả thông tin được bảo vệ và quản lý để đáp ứng những tiêu
+          chuẩn của doanh nghiệp. Được thiết kế để hỗ trợ khả năng mở rộng quy
+          mô, giải pháp duy trì hiệu suất và độ tin cậy, dễ dàng thích ứng với
+          mọi nhu cầu cấp thiết của dữ liệu hiện nay.
+        </p>
+      </div>
+      <div class="header-illustration">
+        <img
+          src="/images/illustration-data-integration.svg"
+          alt="Data Integration Illustration"
+        />
+      </div>
+    </section>
+    <section
+      class="main-content"
+      style="flex-direction: column; gap: 32px; padding: 32px 0"
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 32px;
+          margin-bottom: 16px;
+        "
+      >
+        <div style="flex: 1">
+          <div
+            style="font-weight: bold; font-size: 1.15rem; margin-bottom: 8px"
+          >
+            Advanced data pipelines
+          </div>
+          <div style="font-size: 1.05rem; line-height: 1.7">
+            Build robust, efficient <b>data pipelines</b> without the
+            complexity. Sisense's intuitive interface empowers you to
+            effortlessly <b>ingest, prepare, transform, and visualize</b> data
+            using familiar cloud data warehouses and Git workflows. Securely
+            centralize your data for easy access and analysis.
+          </div>
+        </div>
+        <div style="flex: 0 0 220px; max-width: 220px">
+          <img
+            src="/images/sisense-pipeline.png"
+            alt="Sisense Data Pipeline Screenshot"
+            style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px #0001"
+          />
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 32px;
+          margin-bottom: 16px;
+        "
+      >
+        <div style="flex: 1">
+          <div
+            style="font-weight: bold; font-size: 1.15rem; margin-bottom: 8px"
+          >
+            AI-powered data prep
+          </div>
+          <div style="font-size: 1.05rem; line-height: 1.7">
+            Save time and effort with Sisense
+            <b>AI-powered data preparation</b> tools. Automatically identify and
+            unify similar values, eliminate duplicates, and gain instant
+            insights into your data health with summary statistics. Focus on
+            analysis, not manual data cleaning.
+          </div>
+        </div>
+        <div style="flex: 0 0 220px; max-width: 220px">
+          <img
+            src="/images/sisense-ai-prep.png"
+            alt="Sisense AI Data Prep Screenshot"
+            style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px #0001"
+          />
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 32px;
+          margin-bottom: 16px;
+        "
+      >
+        <div style="flex: 1">
+          <div
+            style="font-weight: bold; font-size: 1.15rem; margin-bottom: 8px"
+          >
+            Tailored views for every user
+          </div>
+          <div style="font-size: 1.05rem; line-height: 1.7">
+            <b>Perspectives</b> enable you to create sub-models that inherit
+            from a central data model, offering unique views without duplicating
+            data or logic. Adapt
+            <b>data structures, calculations, and visualizations</b> to specific
+            needs, ensuring every user has the right information at their
+            fingertips.
+          </div>
+        </div>
+        <div style="flex: 0 0 220px; max-width: 220px">
+          <img
+            src="/images/sisense-perspectives.png"
+            alt="Sisense Perspectives Screenshot"
+            style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px #0001"
+          />
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 32px;
+          margin-bottom: 16px;
+        "
+      >
+        <div style="flex: 1">
+          <div
+            style="font-weight: bold; font-size: 1.15rem; margin-bottom: 8px"
+          >
+            Embedded notebooks for advanced analytics
+          </div>
+          <div style="font-size: 1.05rem; line-height: 1.7">
+            Perform advanced analytics and modeling directly within Sisense.
+            Leverage the power of <b>SQL, Python, and R</b> in embedded Jupyter
+            Notebooks for deeper data exploration and custom analysis.
+          </div>
+        </div>
+        <div style="flex: 0 0 220px; max-width: 220px">
+          <img
+            src="/images/sisense-notebook.png"
+            alt="Sisense Notebook Screenshot"
+            style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px #0001"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

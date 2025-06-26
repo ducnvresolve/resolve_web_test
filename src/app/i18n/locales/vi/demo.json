@@ -1,0 +1,18 @@
+{
+  "page": {
+    "title": "Trải nghiệm demo",
+    "subtitle": "Trải nghiệm demo để chiêm ngưỡng tính năng của nền tảng Sisense"
+  },
+  "showcase": {
+    "title": "Trình diễn",
+    "description": "Trải nghiệm trực tiếp công nghệ của Sisense qua Compose SDK mới nhất"
+  },
+  "video": {
+    "title": "Video giới thiệu",
+    "description": "Xem các video của chúng tôi để hiểu thêm về tính năng & cách sử dụng của Sisense"
+  },
+  "contact": {
+    "title": "Muốn xem thêm?",
+    "description": "Liên lạc với chúng tôi để yêu cầu demo phù hợp với vấn đề doanh nghiệp của bạn"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "demo": "Demo",
+  "title": "Showcase",
+  "subtitle": "Experience first-hand Sisense technology via their latest Compose SDK",
+  "dashboard": {
+    "total": "Total {{ entity }}",
+    "by": "By {{ entity }}",
+    "all": "All",
+    "clearSelection": "Clear selection",
+
+    "revenue": "Revenue",
+    "unitsSold": "Units Sold",
+    "sales": "Sales",
+    "brands": "Brands",
+    "gender": "Gender",
+    "ageRange": "Age Range",
+    "visits": "Visits",
+    "cost": "Cost",
+    "category": "Category",
+
+    "revenueTrend": "Revenue Trend",
+    "sitePopularity": "Site Popularity",
+    "demographics": "Demographics",
+    "geography": "Geography"
+  },
+  "video": {
+    "title": "Video Demonstration",
+    "description": "Watch our videos to get familiar with Sisense functionality & usability"
+  },
+  "contact": {
+    "title": "Want to see more?",
+    "description": "Contact us to request for a demo suitable for your business usecase"
+  }
+}
