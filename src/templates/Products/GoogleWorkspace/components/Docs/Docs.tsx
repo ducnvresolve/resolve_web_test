@@ -18,7 +18,7 @@ interface DocsComponentProps {
 const DocsComponent = ({ lng }: DocsComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={Online_collaborative_documents} lng={lng} />
+      {/* <ContentCardLong content={Online_collaborative_documents} lng={lng} /> */}
       <DividerContent />
       {/* <ColumFeatureCards section={DOCS_FEATURES_SECTION} lng={lng} /> */}
       <ContentGridCard content={DOCS_FEATURES} lng={lng} />

@@ -20,36 +20,36 @@ const GEMINI_IN_CHAT: IContent = {
   Với Gemini trong Chat, bạn có một đối tác luôn sẵn sàng cung cấp câu trả lời, tóm tắt cuộc trò chuyện, tìm tệp trong Drive và động não các ý tưởng sáng tạo mới.
   `,
   bullets: [
-    {
-      title: "Made for modern messaging, powered by AI",
-      title_vn: "Được tạo cho nhắn tin hiện đại, được hỗ trợ bởi AI",
-      desc: "",
-      desc_vn: ``,
-      img: ["/assets/images/image45.png"],
-    },
-    {
-      title: "Simple but powerful",
-      title_vn: "Đơn giản nhưng mạnh mẽ",
-      desc: "Designed to help you manage the flow of business and personal communication.",
-      desc_vn:
-        "Được thiết kế để giúp bạn quản lý luồng giao tiếp kinh doanh và cá nhân.",
-      img: ["/assets/images/image175.png"],
-    },
-    {
-      title: "Express yourself",
-      title_vn: "Thể hiện bản thân",
-      desc: "Let your personality shine through with custom emojis, reactions, inline GIFs, and rich text formatting.",
-      desc_vn:
-        "Để cá tính của bạn tỏa sáng với biểu tượng cảm xúc tùy chỉnh, phản ứng, GIF nội dòng và định dạng văn bản phong phú.",
-      img: ["/assets/images/image280.png"],
-    },
-    {
-      title: "Supercharged with AI",
-      title_vn: "Tăng cường với AI",
-      desc: "Stay connected with intelligent features like smart compose, autocorrect, and summarization.",
-      desc_vn:
-        "Luôn kết nối với các tính năng thông minh như soạn thảo thông minh, tự động sửa lỗi và tóm tắt.",
-    },
+    // {
+    //   title: "Made for modern messaging, powered by AI",
+    //   title_vn: "Được tạo cho nhắn tin hiện đại, được hỗ trợ bởi AI",
+    //   desc: "",
+    //   desc_vn: ``,
+    //   img: ["/assets/images/image45.png"],
+    // },
+    // {
+    //   title: "Simple but powerful",
+    //   title_vn: "Đơn giản nhưng mạnh mẽ",
+    //   desc: "Designed to help you manage the flow of business and personal communication.",
+    //   desc_vn:
+    //     "Được thiết kế để giúp bạn quản lý luồng giao tiếp kinh doanh và cá nhân.",
+    //   img: ["/assets/images/image175.png"],
+    // },
+    // {
+    //   title: "Express yourself",
+    //   title_vn: "Thể hiện bản thân",
+    //   desc: "Let your personality shine through with custom emojis, reactions, inline GIFs, and rich text formatting.",
+    //   desc_vn:
+    //     "Để cá tính của bạn tỏa sáng với biểu tượng cảm xúc tùy chỉnh, phản ứng, GIF nội dòng và định dạng văn bản phong phú.",
+    //   img: ["/assets/images/image280.png"],
+    // },
+    // {
+    //   title: "Supercharged with AI",
+    //   title_vn: "Tăng cường với AI",
+    //   desc: "Stay connected with intelligent features like smart compose, autocorrect, and summarization.",
+    //   desc_vn:
+    //     "Luôn kết nối với các tính năng thông minh như soạn thảo thông minh, tự động sửa lỗi và tóm tắt.",
+    // },
   ],
 };
 
@@ -80,6 +80,41 @@ const CHAT_FEATURES: ColumFeature[] = [
     desc_vn:
       "Giữ mọi người trên cùng một trang với không gian thông báo hỗ trợ tới 500.000 thành viên.",
     img: "/assets/images/image3009.png",
+  },
+  {
+    id: "made-for-modern-messaging-powered-by-ai",
+    title: "Made for modern messaging, powered by AI",
+    title_vn: "Được tạo cho nhắn tin hiện đại, được hỗ trợ bởi AI",
+    desc: "",
+    desc_vn: ``,
+    img: "/assets/images/image45.png",
+  },
+  {
+    id: "simple-but-powerful",
+    title: "Simple but powerful",
+    title_vn: "Đơn giản nhưng mạnh mẽ",
+    desc: "Designed to help you manage the flow of business and personal communication.",
+    desc_vn:
+      "Được thiết kế để giúp bạn quản lý luồng giao tiếp kinh doanh và cá nhân.",
+    img: "/assets/images/image175.png",
+  },
+  {
+    id: "express-yourself",
+    title: "Express yourself",
+    title_vn: "Thể hiện bản thân",
+    desc: "Let your personality shine through with custom emojis, reactions, inline GIFs, and rich text formatting.",
+    desc_vn:
+      "Để cá tính của bạn tỏa sáng với biểu tượng cảm xúc tùy chỉnh, phản ứng, GIF nội dòng và định dạng văn bản phong phú.",
+    img: "/assets/images/image280.png",
+  },
+  {
+    id: "supercharged-with-ai",
+    title: "Supercharged with AI",
+    title_vn: "Tăng cường với AI",
+    desc: "Stay connected with intelligent features like smart compose, autocorrect, and summarization.",
+    desc_vn:
+      "Luôn kết nối với các tính năng thông minh như soạn thảo thông minh, tự động sửa lỗi và tóm tắt.",
+    img: "",
   },
 ];
 

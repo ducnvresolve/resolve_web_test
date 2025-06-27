@@ -18,7 +18,7 @@ interface ChatComponentProps {
 const ChatComponent = ({ lng }: ChatComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={GEMINI_IN_CHAT} lng={lng} />
+      {/* <ContentCardLong content={GEMINI_IN_CHAT} lng={lng} /> */}
 
       <DividerContent />
 

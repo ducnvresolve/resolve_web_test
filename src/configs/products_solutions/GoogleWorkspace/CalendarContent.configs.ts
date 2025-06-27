@@ -10,50 +10,95 @@ const SHAREABLE_ONLINE_CALENDAR: IContent = {
   desc_vn: `Dành ít thời gian hơn cho việc lên kế hoạch và nhiều thời gian hơn cho việc thực hiện với lịch có thể chia sẻ hoạt động trên toàn bộ Google Workspace.
   `,
   bullets: [
-    {
-      title: "Your plans, at your fingertips",
-      title_vn: "Kế hoạch của bạn, trong tầm tay",
-      desc: "Google Calendar brings all of your calendars together in one place, so you can manage work, personal life, and everything in between.",
-      desc_vn:
-        "Google Calendar tập hợp tất cả lịch của bạn vào một nơi, để bạn có thể quản lý công việc, cuộc sống cá nhân và mọi thứ ở giữa.",
-      img: ["/assets/images/image223.png"],
-    },
-    {
-      title: `Tackle your to-dos A smarter way to schedule`,
-      title_vn: `Xử lý công việc cần làm - Cách lên lịch thông minh hơn`,
-      desc: "Save time scheduling meetings by layering multiple calendars in a single view. Plus, keep everyone in the loop with shared calendars. <br/> Teams and organizations can easily schedule meetings and book rooms.",
-      desc_vn:
-        "Tiết kiệm thời gian lên lịch họp bằng cách xếp lớp nhiều lịch trong một chế độ xem. Ngoài ra, giữ mọi người trong vòng lặp với lịch được chia sẻ. <br/> Các nhóm và tổ chức có thể dễ dàng lên lịch họp và đặt phòng.",
-      img: ["/assets/images/image127.png"],
-    },
-    {
-      title: "Stay on top of your plans",
-      title_vn: "Luôn nắm rõ kế hoạch của bạn",
-      desc: "When you get an email about an event, like a concert, flight, or reservation, Google Calendar automatically adds it to your schedule.",
-      desc_vn:
-        "Khi bạn nhận được email về một sự kiện, như buổi hòa nhạc, chuyến bay hoặc đặt chỗ, Google Calendar tự động thêm nó vào lịch trình của bạn.",
-      img: ["/assets/images/image179.png"],
-    },
-    {
-      title: "Find the time, every day - See how you spend your time",
-      title_vn: "Tìm thời gian, mỗi ngày - Xem cách bạn sử dụng thời gian",
-      desc: "Time Insights analyzes your schedule to show how you spend your time, and who you're spending it with.",
-      desc_vn:
-        "Time Insights phân tích lịch trình của bạn để hiển thị cách bạn sử dụng thời gian và bạn đang dành thời gian với ai.",
-      img: ["/assets/images/image267.png"],
-    },
-    {
-      title: "Make time for others",
-      title_vn: "Dành thời gian cho người khác",
-      desc: "Appointment Schedules allow you to share your availability via a booking page, so external stakeholders, clients, and partners can book time with you.",
-      desc_vn:
-        "Lịch hẹn cho phép bạn chia sẻ thời gian có sẵn thông qua trang đặt lịch, để các bên liên quan bên ngoài, khách hàng và đối tác có thể đặt lịch với bạn.",
-      img: ["/assets/images/image15.png"],
-    },
+    // {
+    //   title: "Your plans, at your fingertips",
+    //   title_vn: "Kế hoạch của bạn, trong tầm tay",
+    //   desc: "Google Calendar brings all of your calendars together in one place, so you can manage work, personal life, and everything in between.",
+    //   desc_vn:
+    //     "Google Calendar tập hợp tất cả lịch của bạn vào một nơi, để bạn có thể quản lý công việc, cuộc sống cá nhân và mọi thứ ở giữa.",
+    //   img: ["/assets/images/image223.png"],
+    // },
+    // {
+    //   title: `Tackle your to-dos A smarter way to schedule`,
+    //   title_vn: `Xử lý công việc cần làm - Cách lên lịch thông minh hơn`,
+    //   desc: "Save time scheduling meetings by layering multiple calendars in a single view. Plus, keep everyone in the loop with shared calendars. <br/> Teams and organizations can easily schedule meetings and book rooms.",
+    //   desc_vn:
+    //     "Tiết kiệm thời gian lên lịch họp bằng cách xếp lớp nhiều lịch trong một chế độ xem. Ngoài ra, giữ mọi người trong vòng lặp với lịch được chia sẻ. <br/> Các nhóm và tổ chức có thể dễ dàng lên lịch họp và đặt phòng.",
+    //   img: ["/assets/images/image127.png"],
+    // },
+    // {
+    //   title: "Stay on top of your plans",
+    //   title_vn: "Luôn nắm rõ kế hoạch của bạn",
+    //   desc: "When you get an email about an event, like a concert, flight, or reservation, Google Calendar automatically adds it to your schedule.",
+    //   desc_vn:
+    //     "Khi bạn nhận được email về một sự kiện, như buổi hòa nhạc, chuyến bay hoặc đặt chỗ, Google Calendar tự động thêm nó vào lịch trình của bạn.",
+    //   img: ["/assets/images/image179.png"],
+    // },
+    // {
+    //   title: "Find the time, every day - See how you spend your time",
+    //   title_vn: "Tìm thời gian, mỗi ngày - Xem cách bạn sử dụng thời gian",
+    //   desc: "Time Insights analyzes your schedule to show how you spend your time, and who you're spending it with.",
+    //   desc_vn:
+    //     "Time Insights phân tích lịch trình của bạn để hiển thị cách bạn sử dụng thời gian và bạn đang dành thời gian với ai.",
+    //   img: ["/assets/images/image267.png"],
+    // },
+    // {
+    //   title: "Make time for others",
+    //   title_vn: "Dành thời gian cho người khác",
+    //   desc: "Appointment Schedules allow you to share your availability via a booking page, so external stakeholders, clients, and partners can book time with you.",
+    //   desc_vn:
+    //     "Lịch hẹn cho phép bạn chia sẻ thời gian có sẵn thông qua trang đặt lịch, để các bên liên quan bên ngoài, khách hàng và đối tác có thể đặt lịch với bạn.",
+    //   img: ["/assets/images/image15.png"],
+    // },
   ],
 };
 
 const TASKS_FEATURES: ColumFeature[] = [
+  {
+    id: "your-plans-at-your-fingertips",
+    title: "Your plans, at your fingertips",
+    title_vn: "Kế hoạch của bạn, trong tầm tay",
+    desc: "Google Calendar brings all of your calendars together in one place, so you can manage work, personal life, and everything in between.",
+    desc_vn:
+      "Google Calendar tập hợp tất cả lịch của bạn vào một nơi, để bạn có thể quản lý công việc, cuộc sống cá nhân và mọi thứ ở giữa.",
+    img: "/assets/images/image223.png",
+  },
+  {
+    id: "tackle-your-to-dos-a-smarter-way-to-schedule",
+    title: `Tackle your to-dos A smarter way to schedule`,
+    title_vn: `Xử lý công việc cần làm - Cách lên lịch thông minh hơn`,
+    desc: "Save time scheduling meetings by layering multiple calendars in a single view. Plus, keep everyone in the loop with shared calendars. <br/> Teams and organizations can easily schedule meetings and book rooms.",
+    desc_vn:
+      "Tiết kiệm thời gian lên lịch họp bằng cách xếp lớp nhiều lịch trong một chế độ xem. Ngoài ra, giữ mọi người trong vòng lặp với lịch được chia sẻ. <br/> Các nhóm và tổ chức có thể dễ dàng lên lịch họp và đặt phòng.",
+    img: "/assets/images/image127.png",
+  },
+  {
+    id: "stay-on-top-of-your-plans",
+    title: "Stay on top of your plans",
+    title_vn: "Luôn nắm rõ kế hoạch của bạn",
+    desc: "When you get an email about an event, like a concert, flight, or reservation, Google Calendar automatically adds it to your schedule.",
+    desc_vn:
+      "Khi bạn nhận được email về một sự kiện, như buổi hòa nhạc, chuyến bay hoặc đặt chỗ, Google Calendar tự động thêm nó vào lịch trình của bạn.",
+    img: "/assets/images/image179.png",
+  },
+  {
+    id: "find-the-time-every-day-see-how-you-spend-your-time",
+    title: "Find the time, every day - See how you spend your time",
+    title_vn: "Tìm thời gian, mỗi ngày - Xem cách bạn sử dụng thời gian",
+    desc: "Time Insights analyzes your schedule to show how you spend your time, and who you're spending it with.",
+    desc_vn:
+      "Time Insights phân tích lịch trình của bạn để hiển thị cách bạn sử dụng thời gian và bạn đang dành thời gian với ai.",
+    img: "/assets/images/image267.png",
+  },
+  {
+    id: "make-time-for-others",
+    title: "Make time for others",
+    title_vn: "Dành thời gian cho người khác",
+    desc: "Appointment Schedules allow you to share your availability via a booking page, so external stakeholders, clients, and partners can book time with you.",
+    desc_vn:
+      "Lịch hẹn cho phép bạn chia sẻ thời gian có sẵn thông qua trang đặt lịch, để các bên liên quan bên ngoài, khách hàng và đối tác có thể đặt lịch với bạn.",
+    img: "/assets/images/image15.png",
+  },
   {
     id: "add-task",
     title: "Add a task",

@@ -121,7 +121,10 @@ const TableCardContentComponent = ({
                       }
                     >
                       <div className="text-lg md:text-2xl font-bold text-gray-900 mb-1">
-                        {row.product}
+                        {/* {row.product} */}
+                        {lng === "en"
+                          ? row.product
+                          : row.product_vn || row.product}
                       </div>
                       <ProductDescWithReadMore
                         desc={lng === "en" ? row.desc : row.desc_vn || row.desc}

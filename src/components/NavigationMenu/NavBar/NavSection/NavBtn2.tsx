@@ -12,6 +12,7 @@ interface SolutionConfig {
   description_vn: string;
   image: string;
   name_en: string;
+  path: string;
 }
 
 interface NavBtn2Props extends BaseProps {
@@ -32,8 +33,8 @@ export const NavBtn2 = memo(function NavBtn2({
   params: { lng, t },
   solution,
 }: NavBtn2Props) {
-  const path = `/solutions/${solution.slug}`;
-  console.log(lng);
+  const path = solution.path;
+
   return (
     <li>
       <Link

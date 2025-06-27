@@ -50,6 +50,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Generative AI - Document Summarization",
+    product_vn: "AI Tóm tắt tài liệu",
     desc: "The one-click solution establishes a pipeline that extracts text from PDFs, creates a summary from the extracted text with Vertex AI Generative AI Studio, and stores the searchable summary in a BigQuery database.",
     desc_vn:
       "Giải pháp một cú nhấp chuột thiết lập một đường ống để trích xuất văn bản từ PDF, tạo tóm tắt từ văn bản đã trích xuất với Vertex AI Generative AI Studio và lưu tóm tắt tìm kiếm được vào cơ sở dữ liệu BigQuery.",
@@ -67,6 +68,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Machine learning and MLOPs - Vertex AI Platform",
+    product_vn: "Học máy và MLOPs - Nền tảng Vertex AI",
     desc: "A single platform for data scientists and engineers to create, train, test, monitor, tune, and deploy ML and AI models. Choose from over 150 models in Vertex's Model Garden, including Gemini and open source models like Stable Diffusion, BERT, T-5. <br>",
     desc_vn:
       "Một nền tảng đơn để các nhà khoa học dữ liệu và kỹ sư tạo ra, huấn luyện, kiểm tra, giám sát, điều chỉnh và triển khai các mô hình ML và AI. Chọn từ hơn 150 mô hình trong vườn mô hình của Vertex, bao gồm Gemini và các mô hình nguồn mở như Stable Diffusion, BERT, T-5.",
@@ -86,6 +88,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Machine learning and MLOPs - Vertex AI Notebooks",
+    product_vn: "Học máy và MLOPs - Nền tảng Vertex AI Notebooks",
     desc: "Choose from Colab Enterprise or Vertex AI Workbench. Access every capability in Vertex AI Platform to work across the entire data science workflow—from data exploration to prototype to production.",
     desc_vn:
       "Chọn từ Colab Enterprise hoặc Vertex AI Workbench. Truy cập mọi khả năng trong luồng làm việc khoa học dữ liệu Vertex AI—từ khám phá dữ liệu đến mẫu đến sản xuất.",
@@ -103,6 +106,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Machine learning and MLOPs - AutoML",
+    product_vn: "Học máy và MLOPs - AutoML",
     desc: "Train high-quality custom machine learning models with minimal effort and machine learning expertise.",
     desc_vn:
       "Huấn luyện các mô hình học máy tùy chỉnh cao cấp với ít cố gắng và kinh nghiệm học máy.",
@@ -120,6 +124,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Speech, text, and language APIs - Natural Language AI",
+    product_vn: "Ngôn ngữ tự nhiên và API - AI Ngôn ngữ tự nhiên",
     desc: "Derive insights from unstructured text using Google machine learning.",
     desc_vn:
       "Trích xuất các thông tin từ văn bản không cấu trúc bằng học máy của Google.",
@@ -137,6 +142,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Speech, text, and language APIs - Speech-to-Text",
+    product_vn: "Ngôn ngữ tự nhiên và API - AI Ngôn ngữ tự nhiên",
     desc: "Accurately convert speech into text using an API powered by Google's AI technologies.",
     desc_vn:
       "Chính xác chuyển đổi giọng nói thành văn bản bằng cách sử dụng API được cấp bởi công nghệ AI của Google.",
@@ -154,6 +160,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Speech, text, and language APIs - Text-to-Speech",
+    product_vn: "Ngôn ngữ tự nhiên và API - AI Ngôn ngữ tự nhiên",
     desc: "Convert text into natural-sounding speech using a Google AI powered API.",
     desc_vn:
       "Chuyển đổi văn bản thành giọng nói tự nhiên bằng cách sử dụng API được cấp bởi công nghệ AI của Google.",
@@ -173,6 +180,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Speech, text, and language APIs - Translation AI",
+    product_vn: "Ngôn ngữ tự nhiên và API - AI Ngôn ngữ tự nhiên",
     desc: "Make your content and apps multilingual with fast, dynamic machine translation.",
     desc_vn:
       "Làm cho nội dung và ứng dụng của bạn đa ngôn ngữ với dịch máy nhanh chóng, động và đa ngôn ngữ.",
@@ -192,6 +200,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Image and video APIs - Vision AI",
+    product_vn: "Hình ảnh và video APIs - AI Hình ảnh và video",
     desc: "Derive insights from your images in the cloud or at the edge with AutoML Vision or use pre-trained Vision API models to detect objects, understand text, and more",
     desc_vn:
       "Trích xuất các thông tin từ hình ảnh của bạn trong đám mây hoặc cạnh máy với AutoML Vision hoặc sử dụng các mô hình API nhận dạng văn bản trước để phát hiện các đối tượng, hiểu văn bản và nhiều hơn nữa",
@@ -207,6 +216,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Image and video APIs - Video AI",
+    product_vn: "Hình ảnh và video APIs - AI Hình ảnh và video",
     desc: "Enable powerful content discovery and engaging video experiences.",
     desc_vn: "Kích hoạt khám phá nội dung mạnh mẽ và trải nghiệm video thú vị.",
     features: [
@@ -223,6 +233,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "Document and data APIs - Document AI",
+    product_vn: "Tài liệu và dữ liệu APIs - AI Tài liệu và dữ liệu",
     desc: "Document AI includes pre-trained models for data extraction, Document AI Workbench to create new custom models or uptrain existing ones, and Document AI Warehouse to search and store documents.",
     desc_vn:
       "Document AI bao gồm các mô hình được huấn luyện trước để trích xuất dữ liệu, Document AI Workbench để tạo các mô hình tùy chỉnh mới hoặc huấn luyện lại các mô hình hiện có, và Document AI Warehouse để tìm kiếm và lưu trữ tài liệu.",
@@ -241,6 +252,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   {
     product:
       "AI assistance and conversational AI - Conversational Agents (Dialogflow)",
+    product_vn: "AI trợ giúp và AI hội thoại - Agent hội thoại (Dialogflow)",
     desc: "Conversational AI platform with both intent-based and generative AI LLM capabilities for building natural, rich conversational experiences into mobile and web applications, smart devices, bots, interactive voice response systems, popular messaging platforms, and more. Features a visual builder to create, build, and manage virtual agents.",
     desc_vn:
       "Nền tảng AI hội thoại với cả hai khả năng LLM có ý định và tạo sinh AI để xây dựng các trải nghiệm hội thoại tự nhiên, giàu cảm xúc vào các ứng dụng di động và web, thiết bị thông minh, bot, hệ thống phản hồi giọng nói tương tác, các nền tảng trò chuyện phổ biến và nhiều hơn nữa. Có một trình tạo đồ họa để tạo ra, xây dựng và quản lý các agent ảo.",
@@ -261,6 +273,8 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   {
     product:
       "AI assistance and conversational AI - Customer Engagement Suite with Google AI",
+    product_vn:
+      "AI trợ giúp và AI hội thoại - Bộ công cụ hỗ trợ khách hàng với Google AI",
     desc: "Delight customers with an end-to-end application that combines our most advanced conversational AI, with multimodal and omnichannel functionality to deliver exceptional customer experiences at every touchpoint.",
     desc_vn:
       "Hài lòng khách hàng với ứng dụng đầy đủ để kết hợp AI hội thoại nâng cao nhất của chúng tôi, với khả năng đa phương thức và đa kênh để cung cấp các trải nghiệm khách hàng đặc biệt tại mỗi điểm tiếp xúc.",
@@ -278,6 +292,7 @@ const GOOGLE_CLOUD_PRODUCTS: ITableCardContent[] = [
   },
   {
     product: "AI assistance and conversational AI - Gemini Code Assist",
+    product_vn: "AI trợ giúp và AI hội thoại - Gemini Code Assist",
     desc: "Gemini Code Assist offers code recommendations in real time, suggests full function and code blocks, and identifies vulnerabilities and errors in the code—while suggesting fixes. Assistance can be accessed via a chat interface, Cloud Shell Editor, or Cloud Code IDE extensions for VSCode and JetBrains IDEs.",
     desc_vn:
       "Gemini Code Assist cung cấp các khuyến nghị mã trong thời gian thực, đề xuất các khối mã và hàm đầy đủ, và nhận ra các lỗ hổng và lỗi trong mã—trong khi đề xuất các sửa chữa. Trợ giúp có thể được truy cập thông qua một giao diện trò chuyện, Cloud Shell Editor, hoặc các phần mở rộng IDE Code Cloud và JetBrains IDEs.",

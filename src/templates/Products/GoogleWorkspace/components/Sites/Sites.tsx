@@ -18,7 +18,7 @@ interface SitesComponentProps {
 const SitesComponent = ({ lng }: SitesComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={Impactful_team_sites_made_easy} lng={lng} />
+      {/* <ContentCardLong content={Impactful_team_sites_made_easy} lng={lng} /> */}
 
       <DividerContent />
       {/* <ColumFeatureCards

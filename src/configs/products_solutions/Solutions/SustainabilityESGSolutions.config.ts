@@ -180,7 +180,7 @@ export const SUSTAINABILITY_ESG_SOLUTIONS_KEY_BENEFITS: IContent = {
     },
     {
       title: "Target Achievement & Monitoring",
-      title_vn: ``,
+      title_vn: `Đạt mục tiêu & Theo dõi tiến độ`,
       desc: `Clearly define and diligently track progress against your environmental and social goals`,
       desc_vn: `Rõ ràng xác định và theo dõi tiến độ đạt được mục tiêu phát triển bền vững và xã hội của bạn`,
     },

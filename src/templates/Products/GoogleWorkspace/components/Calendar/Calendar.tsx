@@ -20,7 +20,7 @@ interface CalendarComponentProps {
 const CalendarComponent = ({ lng }: CalendarComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={SHAREABLE_ONLINE_CALENDAR} lng={lng} />
+      {/* <ContentCardLong content={SHAREABLE_ONLINE_CALENDAR} lng={lng} /> */}
 
       <DividerContent />
 

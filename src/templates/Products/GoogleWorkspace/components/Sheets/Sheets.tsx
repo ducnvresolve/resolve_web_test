@@ -19,7 +19,7 @@ interface SheetsComponentProps {
 const SheetsComponent = ({ lng }: SheetsComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={Online_collaborative_spreadsheets} lng={lng} />
+      {/* <ContentCardLong content={Online_collaborative_spreadsheets} lng={lng} /> */}
 
       <DividerContent />
 

@@ -24,14 +24,15 @@ export const GEOSPATIAL_ANALYTICS_CONFIG: IContent = {
 export const GEOSPATIAL_ANALYTICS_CONFIG2: IContent = {
   id: "our-tailored-geo-analytics-solution-for-the-vietnamese-market",
   title: "Our Tailored Geo Analytics Solution for the Vietnamese Market",
-  title_vn: ``,
+  title_vn:
+    "Giải pháp Geo Analytics phù hợp cho thị trường Việt Nam của chúng tôi",
   desc: `Leveraging the robust capabilities of Sisense Fusion, resolve's Geo Analytics solution provides dynamic, interactive maps and visualizations, purpose-built for the unique geographical and administrative structures of Vietnam.`,
   desc_vn:
     "Tận dụng sức mạnh của Sisense Fusion, giải pháp Geo Analytics của resolve cung cấp bản đồ và trực quan hóa động, tương tác, được thiết kế riêng cho cấu trúc địa lý và hành chính đặc thù của Việt Nam.",
   bullets: [
     {
       title: "Area-Based Analytics",
-      title_vn: ``,
+      title_vn: "Phân tích theo khu vực",
       desc: `Understanding Performance by Region Our solution empowers you to analyze any key measure – be it sales, revenue, cost, customer density, or service requests – across defined geographical areas.
       <br>
       <li><strong>Province-Level Insights:</strong> Understand market performance across all 63 provinces, identifying top-performing regions or areas ripe for targeted marketing campaigns.</li>
@@ -44,7 +45,7 @@ export const GEOSPATIAL_ANALYTICS_CONFIG2: IContent = {
     },
     {
       title: "Scenario - Optimizing Distribution for a Beverage Company ",
-      title_vn: ``,
+      title_vn: "Tình huống – Tối ưu hóa phân phối cho công ty đồ uống",
       desc: `A growing beverage company can significantly optimize its distribution network by leveraging geo-analytics. While national sales figures might provide an overall picture, understanding regional disparities is often a challenge. By integrating sales data with detailed geographic mapping, a company can overlay performance metrics on a map to identify trends and outliers.
       <br>For instance, a visual analysis might reveal that while overall sales are strong, certain regions are underperforming. Drilling down further could uncover issues such as fewer active retail outlets or insufficient promotional efforts in those areas. With these insights, the company can reallocate sales resources, launch targeted local promotions, and address specific gaps in its strategy. This data-driven approach not only boosts sales in underperforming regions but also validates the importance of knowing "the power of where" in decision-making.
       `,
@@ -58,14 +59,14 @@ export const GEOSPATIAL_ANALYTICS_CONFIG2: IContent = {
 export const GEOSPATIAL_ANALYTICS_CONFIG3: IContent = {
   id: "location-based-analytics",
   title: "Location-Based Analytics",
-  title_vn: ``,
+  title_vn: "Phân tích dựa trên vị trí",
   desc: `Pinpointing Performance at Specific Sites For businesses with multiple physical locations, our solution provides detailed analytics tied directly to your branches, outlets, or operational sites.`,
   desc_vn:
     "Xác định hiệu suất tại từng địa điểm cụ thể. Đối với doanh nghiệp có nhiều cơ sở vật lý, giải pháp của chúng tôi cung cấp phân tích chi tiết gắn trực tiếp với từng chi nhánh, cửa hàng hoặc điểm vận hành.",
   bullets: [
     {
       title: "Branch/Outlet Performance",
-      title_vn: ``,
+      title_vn: "Hiệu suất chi nhánh/cửa hàng",
       desc: `Visualize sales performance, customer traffic, or operational efficiency across all your retail stores, bank branches, or service centers. Identify top performers, underperforming locations, and patterns that influence success.
       `,
       desc_vn:
@@ -74,16 +75,16 @@ export const GEOSPATIAL_ANALYTICS_CONFIG3: IContent = {
     },
     {
       title: "Customer Proximity Analysis",
-      title_vn: ``,
+      title_vn: "Phân tích khoảng cách khách hàng",
       desc: `Understand the geographical distribution of your customers relative to your physical locations, helping optimize new store placements or targeted local advertising.
       `,
       desc_vn:
         "Hiểu phân bố địa lý của khách hàng so với vị trí thực tế của bạn, giúp tối ưu hóa vị trí mở mới hoặc quảng cáo địa phương mục tiêu.",
-      img: ["/assets/images/image1206.jpg"],
+      img: ["/assets/images/image1207.jpg"],
     },
     {
       title: "Logistics & Field Service Optimization",
-      title_vn: ``,
+      title_vn: "Tối ưu hóa logistics & dịch vụ hiện trường",
       desc: `Track the movement of your fleet, analyze service call densities, and optimize routes for maximum efficiency and reduced fuel costs.`,
       desc_vn:
         "Theo dõi di chuyển của đội xe, phân tích mật độ cuộc gọi dịch vụ và tối ưu hóa tuyến đường để tăng hiệu quả, giảm chi phí nhiên liệu.",
@@ -91,7 +92,7 @@ export const GEOSPATIAL_ANALYTICS_CONFIG3: IContent = {
     },
     {
       title: "Scenario - Enhancing Customer Service for a Bank Chain",
-      title_vn: ``,
+      title_vn: "Tình huống – Nâng cao dịch vụ khách hàng cho chuỗi ngân hàng",
       desc: `Banks operating multiple branches across a country can greatly benefit from leveraging geo-analytics to improve their operations and customer experience. While traditional reports may provide insights into overall transaction volumes, they often lack spatial context, which is critical for identifying branch-specific challenges and opportunities.
       <br>By integrating transaction data with geographic mapping, banks can visualize branch performance alongside factors like customer density or local infrastructure. For example, a bank might discover that a high-performing branch in a densely populated city is experiencing lower customer satisfaction due to limited parking or long wait times. With these insights, the bank could make data-driven decisions, such as opening additional service kiosks or optimizing staffing in high-traffic areas.
       <br>This location-specific approach not only enhances operational efficiency but also improves customer satisfaction, demonstrating the power of combining spatial analysis with business intelligence.
@@ -156,8 +157,8 @@ export const GEO_ANALYTICS_CONTENT4: IContent = {
         "Tận dụng hiểu biết địa lý chuyên sâu, bản địa hóa cho thị trường Việt Nam để tạo lợi thế cạnh tranh.",
     },
     {
-      title: "Seamless Sisense Integration",
-      title_vn: "Tích hợp Sisense liền mạch",
+      title: "Tích hợp công cụ BI liền mạch",
+      title_vn: "Tích hợp công cụ BI liền mạch",
       desc: "As a dedicated add-on, it integrates flawlessly with your existing Sisense Fusion environment, enhancing your current analytical capabilities without disruption.",
       desc_vn:
         "Là add-on chuyên biệt, tích hợp hoàn hảo với môi trường Sisense Fusion hiện tại, nâng cao năng lực phân tích mà không gián đoạn.",
