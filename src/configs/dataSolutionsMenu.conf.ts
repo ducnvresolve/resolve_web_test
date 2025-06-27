@@ -88,7 +88,7 @@ export const DATA_SOLUTIONS_MENU = {
     {
       name: "Geospatial Analytics (Geo Analytics)",
       slug: "geospatial-analytics",
-      name_vn: "Phân tích không gian địa lý",
+      name_vn: "Phân tích theo bản đồ địa lý",
       description: `Gain location-based insights to make smarter decisions, optimize operations, and uncover new opportunities using advanced geospatial analytics.`,
       description_vn: `Khai thác thông tin dựa trên vị trí để ra quyết định thông minh hơn, tối ưu hóa hoạt động và khám phá cơ hội mới với các công cụ phân tích không gian địa lý tiên tiến.`,
       image: "/assets/images/image1204.jpeg",

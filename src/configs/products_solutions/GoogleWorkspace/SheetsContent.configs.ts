@@ -139,7 +139,7 @@ const Online_collaborative_spreadsheets: IContent = {
 
 const SHEETS_FEATURES: ColumFeature[] = [
   {
-    img: "",
+    img: "/assets/images/image1210.gif",
     id: "become-a-data-pro-with-gemini-in-sheets",
     title: "Become a data pro with Gemini in Sheets",
     title_vn: "Trở thành chuyên gia dữ liệu với Gemini trong Sheets",
@@ -157,7 +157,7 @@ const SHEETS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image16.png",
   },
   {
-    img: "",
+    img: "/assets/images/image1211.gif",
     id: "format-and-design-your-spreadsheet-quickly",
     title: "Format and design your spreadsheet quickly",
     title_vn: "Định dạng và thiết kế bảng tính của bạn nhanh chóng",
@@ -201,15 +201,15 @@ const SHEETS_FEATURES: ColumFeature[] = [
       "Luôn đồng bộ với các chỉnh sửa và nhận xét từ các nhóm nội bộ và bên ngoài trên điện thoại, máy tính bảng hoặc trình duyệt web của bạn.",
     img: "/assets/images/image215.png",
   },
-  {
-    img: "",
-    id: "control-access-to-your-documents",
-    title: "Control access to your documents",
-    title_vn: "Kiểm soát quyền truy cập vào tài liệu của bạn",
-    desc: "Easy-to-manage permissions gives you granular control over who can edit, comment, download, share, or view your documents.",
-    desc_vn:
-      "Quyền dễ quản lý cho phép bạn kiểm soát chi tiết ai có thể chỉnh sửa, nhận xét, tải xuống, chia sẻ hoặc xem tài liệu của bạn.",
-  },
+  // {
+  //   img: "",
+  //   id: "control-access-to-your-documents",
+  //   title: "Control access to your documents",
+  //   title_vn: "Kiểm soát quyền truy cập vào tài liệu của bạn",
+  //   desc: "Easy-to-manage permissions gives you granular control over who can edit, comment, download, share, or view your documents.",
+  //   desc_vn:
+  //     "Quyền dễ quản lý cho phép bạn kiểm soát chi tiết ai có thể chỉnh sửa, nhận xét, tải xuống, chia sẻ hoặc xem tài liệu của bạn.",
+  // },
   {
     id: "meet-directly-in-your-documents",
     title: "Meet directly in your documents",
@@ -220,7 +220,7 @@ const SHEETS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image283.png",
   },
   {
-    img: "",
+    img: "/assets/images/image1212.png",
     id: "control-access-to-your-spreadsheets",
     title: "Control access to your spreadsheets",
     title_vn: "Kiểm soát quyền truy cập vào bảng tính của bạn",
@@ -239,7 +239,7 @@ const SHEETS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image264.png",
   },
   {
-    img: "",
+    img: "/assets/images/image1213.webp",
     id: "collaborate-with-your-partners-and-make-decisions-all-in-one-place",
     title:
       "Collaborate with your partners and make decisions, all in one place",
@@ -250,7 +250,7 @@ const SHEETS_FEATURES: ColumFeature[] = [
       "Sử dụng nhận xét và emoji để đưa ra phản hồi cho nhóm của bạn và giao nhiệm vụ để giữ cho dự án tiến triển, mà không cần rời khỏi tài liệu của bạn.",
   },
   {
-    img: "",
+    img: "/assets/images/image1214.webp",
     id: "review-changes-with-flexibility",
     title: "Review changes with flexibility",
     title_vn: "Xem lại các thay đổi một cách linh hoạt",
@@ -258,17 +258,17 @@ const SHEETS_FEATURES: ColumFeature[] = [
     desc_vn:
       "Bạn và các bên liên quan có thể tham khảo các phiên bản trước của tài liệu bất cứ lúc nào và khôi phục chúng.",
   },
+  // {
+  //   img: "",
+  //   id: "get-more-done-with-gemini-in-docs",
+  //   title: "Get more done with Gemini in Docs",
+  //   title_vn: "Hoàn thành nhiều việc hơn với Gemini trong Docs",
+  //   desc: "Using a few simple prompts, create professional, stylized, and structured documents with images, tables, and more. Get help refining your content, see the latest summary of your work, and ask questions to improve and finalize your document. Try Google Workspace with Gemini today.",
+  //   desc_vn:
+  //     "Sử dụng một vài lời nhắc đơn giản, tạo tài liệu chuyên nghiệp, được tạo kiểu và có cấu trúc với hình ảnh, bảng và hơn thế nữa. Nhận trợ giúp tinh chỉnh nội dung của bạn, xem bản tóm tắt mới nhất về công việc của bạn và đặt câu hỏi để cải thiện và hoàn thiện tài liệu của bạn. Thử Google Workspace với Gemini ngay hôm nay.",
+  // },
   {
-    img: "",
-    id: "get-more-done-with-gemini-in-docs",
-    title: "Get more done with Gemini in Docs",
-    title_vn: "Hoàn thành nhiều việc hơn với Gemini trong Docs",
-    desc: "Using a few simple prompts, create professional, stylized, and structured documents with images, tables, and more. Get help refining your content, see the latest summary of your work, and ask questions to improve and finalize your document. Try Google Workspace with Gemini today.",
-    desc_vn:
-      "Sử dụng một vài lời nhắc đơn giản, tạo tài liệu chuyên nghiệp, được tạo kiểu và có cấu trúc với hình ảnh, bảng và hơn thế nữa. Nhận trợ giúp tinh chỉnh nội dung của bạn, xem bản tóm tắt mới nhất về công việc của bạn và đặt câu hỏi để cải thiện và hoàn thiện tài liệu của bạn. Thử Google Workspace với Gemini ngay hôm nay.",
-  },
-  {
-    img: "",
+    img: "/assets/images/image1215.jpg",
     id: "stay-safe",
     title: "Stay safe",
     title_vn: "Luôn an toàn",
@@ -277,7 +277,7 @@ const SHEETS_FEATURES: ColumFeature[] = [
       "Dữ liệu của bạn được mã hóa theo mặc định, và một loạt các biện pháp an toàn – như mã hóa phía máy khách nâng cao, biện pháp chống lạm dụng và kiểm soát quyền riêng tư – giữ cho dữ liệu của bạn được bảo mật.",
   },
   {
-    img: "",
+    img: "/assets/images/image1216.webp",
     id: "enhance-microsoft-excel-spreadsheets",
     title: "Enhance Microsoft Excel spreadsheets",
     title_vn: "Nâng cao bảng tính Microsoft Excel",

@@ -80,7 +80,7 @@ export const SOLUTION_LIST: Array<BaseRecord<string>> = [
   {
     name: "Digital Transformation",
     name_en: "Digital Transformation",
-    name_vi: "Biến đổi số",
+    name_vi: "Truyển đổi số",
     path: "/solutions/digital-transformation",
   },
   {

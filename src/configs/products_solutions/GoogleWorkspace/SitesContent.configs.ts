@@ -86,7 +86,7 @@ const SITES_MANAGEMENT_FEATURES: ColumFeature[] = [
     img: "/assets/images/image212.png",
   },
   {
-    img: "",
+    img: "/assets/images/image1220.jpg",
     id: "create-a-source-of-truth-for-your-team",
     title: `Create a source of truth for your team`,
     title_vn: `Tạo nguồn thông tin chính xác cho nhóm của bạn`,

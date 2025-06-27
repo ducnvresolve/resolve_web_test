@@ -60,7 +60,10 @@ export default async function SolutionsPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Geospatial Analytics" subTitle="" />
+      <ContentPageHeader
+        title={lng === "vi" ? "Phân tích theo bản đồ" : "Geospatial Analytics"}
+        subTitle=""
+      />
       <GeospatialAnalyticsSolution lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>

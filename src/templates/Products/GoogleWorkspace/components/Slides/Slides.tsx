@@ -18,10 +18,10 @@ interface SlidesComponentProps {
 const SlidesComponent = ({ lng }: SlidesComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong
+      {/* <ContentCardLong
         content={Build_beautiful_presentations_together}
         lng={lng}
-      />
+      /> */}
 
       <DividerContent />
       {/* <ColumFeatureCards section={SLIDES_FEATURES_SECTION} lng={lng} /> */}

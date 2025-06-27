@@ -1,9 +1,13 @@
 import {
   ContentCardLong,
+  ContentGridCard,
   DividerContent,
 } from "@/templates/Products/Sisense/components";
 import { Fragment, memo } from "react";
-import { AI_powered_video_creation_for_work } from "../../../../../configs/products_solutions/GoogleWorkspace/VidsContent.configs";
+import {
+  AI_powered_video_creation_for_work,
+  VIDS_FEATURES,
+} from "../../../../../configs/products_solutions/GoogleWorkspace/VidsContent.configs";
 
 interface VidsComponentProps {
   lng: string;
@@ -12,9 +16,11 @@ interface VidsComponentProps {
 const VidsComponent = ({ lng }: VidsComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong content={AI_powered_video_creation_for_work} lng={lng} />
+      {/* <ContentCardLong content={AI_powered_video_creation_for_work} lng={lng} /> */}
 
       <DividerContent />
+
+      <ContentGridCard content={VIDS_FEATURES} lng={lng} />
     </Fragment>
   );
 };

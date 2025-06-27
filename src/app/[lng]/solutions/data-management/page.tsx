@@ -65,7 +65,10 @@ export default async function DataManagementPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Data Management" subTitle="" />
+      <ContentPageHeader
+        title={lng === "vi" ? "Quản lý dữ liệu" : "Data Management"}
+        subTitle=""
+      />
       <DataManagementSolution lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>

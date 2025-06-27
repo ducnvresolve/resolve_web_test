@@ -120,7 +120,7 @@ const DOCS_FEATURES: ColumFeature[] = [
     desc: "Using a few simple prompts, create professional, stylized, and structured documents with images, tables, and more. Get help refining your content, see the latest summary of your work, and ask questions to improve and finalize your document. Try Google Workspace with Gemini today.",
     desc_vn:
       "Sử dụng một vài lời nhắc đơn giản, tạo tài liệu chuyên nghiệp, được tạo kiểu và có cấu trúc với hình ảnh, bảng và hơn thế nữa. Nhận trợ giúp tinh chỉnh nội dung của bạn, xem bản tóm tắt mới nhất về công việc của bạn và đặt câu hỏi để cải thiện và hoàn thiện tài liệu của bạn. Thử Google Workspace với Gemini ngay hôm nay.",
-    img: "",
+    img: "https://cdn.gowinston.ai/wp-content/uploads/2024/03/Untitled-design-26-1024x576.jpg",
   },
   {
     id: "effortlessly-create-documents",
@@ -150,7 +150,7 @@ const DOCS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image190.png",
   },
   {
-    img: "",
+    img: "https://media.geeksforgeeks.org/wp-content/uploads/20230825162039/removepagebreaks_pagelesstab.png",
     id: "remove-page-breaks-and-write-without-limits",
     title: "Remove page breaks and write without limits",
     title_vn: "Loại bỏ ngắt trang và viết không giới hạn",
@@ -168,7 +168,7 @@ const DOCS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image167.png",
   },
   {
-    img: "",
+    img: "/assets/images/image1208.webp",
     id: "collaborate-on-and-refine-your-document-from-anywhere",
     title: "Collaborate on and refine your document, from anywhere",
     title_vn: "Cộng tác và tinh chỉnh tài liệu của bạn, từ bất kỳ đâu",
@@ -206,7 +206,7 @@ const DOCS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image41.png",
   },
   {
-    img: "",
+    img: "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2022/02/Tracked-changes-in-Google-Docs..png?q=50&fit=crop&w=825&dpr=1.5",
     id: "review-changes-with-flexibility",
     title: "Review changes with flexibility",
     title_vn: "Xem lại các thay đổi một cách linh hoạt",
@@ -215,7 +215,7 @@ const DOCS_FEATURES: ColumFeature[] = [
       "Bạn và các bên liên quan có thể tham khảo các phiên bản trước của tài liệu bất cứ lúc nào và khôi phục chúng.",
   },
   {
-    img: "",
+    img: "/assets/images/image1209.jpg",
     id: "get-more-done-with-gemini-in-docs",
     title: "Get more done with Gemini in Docs",
     title_vn: "Hoàn thành nhiều việc hơn với Gemini trong Docs",

@@ -60,7 +60,14 @@ export default async function SustainabilityESGSolutionsPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Sustainability & ESG Solutions" subTitle="" />
+      <ContentPageHeader
+        title={
+          lng === "vi"
+            ? "Giải pháp bền vững & ESG"
+            : "Sustainability & ESG Solutions"
+        }
+        subTitle=""
+      />
       <SustainabilityESGSolutions lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>

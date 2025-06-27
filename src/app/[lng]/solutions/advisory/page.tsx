@@ -59,7 +59,10 @@ export default async function SolutionsPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Advisory" subTitle="" />
+      <ContentPageHeader
+        title={lng === "vi" ? "Tư vấn" : "Advisory"}
+        subTitle=""
+      />
       <AdvisorySolution lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>

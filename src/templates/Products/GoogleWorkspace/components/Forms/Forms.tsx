@@ -19,13 +19,12 @@ interface FormsComponentProps {
 const FormsComponent = ({ lng }: FormsComponentProps) => {
   return (
     <Fragment>
-      <ContentCardLong
+      {/* <ContentCardLong
         content={Online_forms_to_get_insights_quickly}
         lng={lng}
-      />
+      /> */}
 
       <DividerContent />
-      {/* <ColumFeatureCards section={FORMS_SECURITY_FEATURES_SECTION} lng={lng} /> */}
       <ContentGridCard content={FORMS_SECURITY_FEATURES} lng={lng} />
     </Fragment>
   );

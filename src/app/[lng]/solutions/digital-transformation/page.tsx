@@ -60,8 +60,11 @@ export default async function SolutionsPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Digital Transformation" subTitle="" />
-      <DigitalTransformation />
+      <ContentPageHeader
+        title={lng === "vi" ? "Truyển đổi số" : "Digital Transformation"}
+        subTitle=""
+      />
+      <DigitalTransformation lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>
   );

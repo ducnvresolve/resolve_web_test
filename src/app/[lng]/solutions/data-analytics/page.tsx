@@ -60,7 +60,10 @@ export default async function SolutionsPage({
 
   return (
     <main className="flex flex-col items-center bg-white">
-      <ContentPageHeader title="Data Analytics" subTitle="" />
+      <ContentPageHeader
+        title={lng === "vi" ? "Phân tích dữ liệu" : "Data Analytics"}
+        subTitle=""
+      />
       <DataAnalyticsSolution lng={lng} />
       <CtaSection params={{ lng, t }} />
     </main>
