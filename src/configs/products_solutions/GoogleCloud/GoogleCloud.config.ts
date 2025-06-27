@@ -37,7 +37,8 @@ const GOOGLE_CLOUD_FEATURES: IFeature[] = [
   },
   {
     slug: "networking",
-    icon: "/assets/images/image27.png",
+    // icon: "/assets/images/image27.png",
+    icon: "/assets/images/image39.png",
     name: "Networking",
     desc: "Google Cloud Networking delivers fast, secure, and scalable connections between your cloud resources, enabling seamless data transfer, global reach, and robust protection against network threats.",
     name_vn: "Mạng",
@@ -46,7 +47,8 @@ const GOOGLE_CLOUD_FEATURES: IFeature[] = [
   },
   {
     slug: "containers",
-    icon: "/assets/images/image273.png",
+    // icon: "/assets/images/image273.png",
+    icon: "/assets/images/image27.png",
     name: "Containers",
     desc: "Deploy, manage, and scale containerized applications easily with Google Cloud's Kubernetes and container services, ensuring high performance, automation, and seamless integration with your workflows.",
     name_vn: "Hệ thống container",
@@ -64,7 +66,8 @@ const GOOGLE_CLOUD_FEATURES: IFeature[] = [
   },
   {
     slug: "storage",
-    icon: "/assets/images/image39.png",
+    // icon: "/assets/images/image39.png",
+    icon: "/assets/images/image117.png",
     name: "Storage",
     desc: "Google Cloud Storage provides secure, durable, and scalable storage for all your data needs, supporting backup, archiving, and real-time access with high availability and global reach.",
     name_vn: "Lưu trữ",
@@ -73,7 +76,7 @@ const GOOGLE_CLOUD_FEATURES: IFeature[] = [
   },
   {
     slug: "database",
-    icon: "/assets/images/image117.png",
+    icon: "/assets/images/image1230.png",
     name: "Database",
     desc: "Managed database services on Google Cloud support SQL and NoSQL workloads, offering high performance, automatic scaling, and built-in security for mission-critical applications.",
     name_vn: "Cơ sở dữ liệu",

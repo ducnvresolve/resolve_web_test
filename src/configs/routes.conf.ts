@@ -80,7 +80,7 @@ export const SOLUTION_LIST: Array<BaseRecord<string>> = [
   {
     name: "Digital Transformation",
     name_en: "Digital Transformation",
-    name_vi: "Truyển đổi số",
+    name_vi: "Chuyển đổi số",
     path: "/solutions/digital-transformation",
   },
   {
@@ -117,10 +117,10 @@ export const PLATFORM_LIST: Array<BaseRecord<string>> = [
     path: "/products/google-workspace",
   },
   {
-    name: "Viettel Cloud",
-    name_en: "Viettel Cloud",
-    name_vi: "Viettel Cloud",
-    path: "/products/viettel-cloud",
+    name: "Google Cloud",
+    name_en: "Google Cloud",
+    name_vi: "Google Cloud",
+    path: "/products/google-cloud",
   },
   {
     name: "Viettel Cloud",

@@ -38,6 +38,9 @@ export default function PlatformNavSection({
   );
   const solutionList: SolutionItem[] = DATA_SOLUTIONS_MENU.solutions;
   const sisenseItem = productList.find((item) => item.name === "Sisense");
+  const dataAnalyticsItem = solutionList.find(
+    (item) => item.name === "Data Analytics"
+  );
   const [mainTab, setMainTab] = useState<"product" | "solution" | null>(
     "product"
   );
@@ -55,10 +58,7 @@ export default function PlatformNavSection({
         <div className="w-full flex justify-center">
           <div className="w-[95vw] max-w-[1700px] flex flex-row h-[380px] md:h-[440px] bg-white rounded-2xl shadow-xl border border-purple-200 overflow-hidden">
             {/* Cột 1: Chọn Product/Solution */}
-            <div
-              style={{ flexBasis: "20%" }}
-              className="flex flex-col gap-2 p-3 px-4 bg-gray-50 border-r border-purple-200 justify-center text-center"
-            >
+            <div className="flex flex-col gap-2 p-3 px-4 bg-gray-50 border-r border-purple-200 justify-center text-center lg:flex-[0_0_25%] xl:flex-[0_0_20%]">
               <div
                 className={clsx(
                   "cursor-pointer p-3 rounded-lg font-bold text-purple-700 border-2 transition-all duration-150 mb-2",
@@ -82,17 +82,14 @@ export default function PlatformNavSection({
                 )}
                 onMouseEnter={() => {
                   setMainTab("solution");
-                  setHoveredItem(null);
+                  setHoveredItem(dataAnalyticsItem);
                 }}
               >
                 {lng === "vi" ? "Giải pháp" : "Solutions"}
               </div>
             </div>
             {/* Cột 2: Danh sách item theo tab */}
-            <div
-              style={{ flexBasis: "20%" }}
-              className="flex flex-col gap-1 p-3 px-4 bg-white border-r border-purple-100 justify-center  text-center"
-            >
+            <div className="flex flex-col gap-1 p-3 px-4 bg-white border-r border-purple-100 justify-center text-center lg:flex-[0_0_25%] xl:flex-[0_0_20%]">
               {mainTab === "product" && (
                 <ul className="w-full flex flex-col">
                   {productList.map((item) => {
@@ -154,8 +151,8 @@ export default function PlatformNavSection({
             </div>
             {/* Cột 3: Mô tả chi tiết */}
             <div
-              style={{ flexBasis: "30%", minHeight: "380px" }}
-              className="flex flex-col bg-gray-50 border-r border-purple-100 p-6 transition-all duration-200 overflow-y-auto text-justify justify-center"
+              style={{ minHeight: "380px" }}
+              className="flex flex-col bg-gray-50 border-r border-purple-100 p-6 transition-all duration-200 overflow-y-auto text-justify justify-center lg:flex-[0_0_50%] xl:flex-[0_0_30%]"
             >
               <div
                 dangerouslySetInnerHTML={{
@@ -169,8 +166,8 @@ export default function PlatformNavSection({
             </div>
             {/* Cột 4: Ảnh minh hoạ */}
             <div
+              className="flex items-center justify-center p-4 bg-white hidden xl:flex"
               style={{ flexBasis: "30%", minHeight: "380px" }}
-              className="flex items-center justify-center p-4 bg-white"
             >
               {hoveredItem?.image ? (
                 <img

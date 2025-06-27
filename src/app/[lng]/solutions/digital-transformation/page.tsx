@@ -61,7 +61,7 @@ export default async function SolutionsPage({
   return (
     <main className="flex flex-col items-center bg-white">
       <ContentPageHeader
-        title={lng === "vi" ? "Truyển đổi số" : "Digital Transformation"}
+        title={lng === "vi" ? "Chuyển đổi số" : "Digital Transformation"}
         subTitle=""
       />
       <DigitalTransformation lng={lng} />
