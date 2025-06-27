@@ -246,9 +246,10 @@ export default function PlatformNavSection({
             {mobileOpen.solution && (
               <ul className="w-full px-5 pb-3 pt-1">
                 {solutionList.map((item) => {
-                  const slug = encodeURIComponent(
-                    item.name.toLowerCase().replace(/\s+/g, "-")
-                  );
+                  // const slug = encodeURIComponent(
+                  //   item.name.toLowerCase().replace(/\s+/g, "-")
+                  // );
+                  const slug = item.slug;
                   return (
                     <li key={item.name} className="mb-1 w-full">
                       <Link

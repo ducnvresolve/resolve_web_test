@@ -49,8 +49,8 @@ export const DATA_MANAGEMENT_CONFIG: IContent = {
       desc_vn:
         "Hiểu rằng vị trí, khả năng mở rộng và chi phí lưu trữ rất quan trọng, chúng tôi cung cấp các lựa chọn lưu trữ đa dạng, an toàn. <br> <li><strong>Cloud toàn cầu (Google Cloud):</strong> Đáp ứng nhu cầu mở rộng, phân tích nâng cao, phạm vi toàn cầu với dịch vụ lưu trữ hiệu suất cao, bảo mật của GCP.</li> <li><strong>Lưu trữ nội địa (Viettel Cloud):</strong> Đáp ứng yêu cầu lưu trữ dữ liệu tại Việt Nam, tuân thủ quy định, tối ưu hiệu năng cho vận hành trong nước.</li>",
       img: [
-        "/assets/imagesSolutions/image17.png",
-        "/assets/imagesSolutions/image21.png",
+        "/assets/images/image1228.png",
+        // "/assets/imagesSolutions/image21.png",
       ],
     },
   ],
