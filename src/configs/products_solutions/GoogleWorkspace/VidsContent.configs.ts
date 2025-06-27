@@ -185,7 +185,7 @@ const VIDS_FEATURES: ColumFeature[] = [
   },
 
   {
-    img: "",
+    img: "/assets/images/image1223.webp",
     id: "start-creating-videos-no-experience-required",
     title: "Start creating videos, no experience required",
     title_vn: "Bắt đầu tạo video, không cần kinh nghiệm",
@@ -194,7 +194,7 @@ const VIDS_FEATURES: ColumFeature[] = [
       "Google Vids cung cấp nhiều cách để bắt đầu tạo video và xây dựng câu chuyện của bạn trong thời gian ngắn hơn bạn nghĩ.",
   },
   {
-    img: "",
+    img: "/assets/images/image1224.webp",
     id: "get-to-first-draft-faster",
     title: "Get to first draft, faster",
     title_vn: "Đạt đến bản nháp đầu tiên, nhanh hơn",
@@ -203,7 +203,7 @@ const VIDS_FEATURES: ColumFeature[] = [
       "Sử dụng Gemini trong Vids để tạo bảng phân cảnh video ban đầu với các cảnh được đề xuất, phương tiện có sẵn, nhạc nền và hơn thế nữa, chỉ với một lời nhắc và một tệp từ Drive của bạn.",
   },
   {
-    img: "",
+    img: "/assets/images/image1225.webp",
     id: "no-design-skills-no-problem",
     title: "No design skills? No problem",
     title_vn: "Không có kỹ năng thiết kế? Không vấn đề",
@@ -266,7 +266,7 @@ const VIDS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image1112.webp",
   },
   {
-    img: "",
+    img: "/assets/images/image1226.webp",
     id: "unleash-your-creativity-with-rich-media",
     title: "Unleash your creativity with rich media",
     title_vn: "Giải phóng sự sáng tạo của bạn với phương tiện phong phú",
@@ -311,7 +311,7 @@ const VIDS_FEATURES: ColumFeature[] = [
     img: "/assets/images/image1107.webp",
   },
   {
-    img: "",
+    img: "/assets/images/image1227.webp",
     id: "simple-sharing-controls",
     title: "Simple sharing controls",
     title_vn: "Kiểm soát chia sẻ đơn giản",
@@ -337,15 +337,15 @@ const VIDS_FEATURES: ColumFeature[] = [
       "Giống như phần còn lại của Workspace, nội dung của bạn được mã hóa theo mặc định, với kiểm soát quyền riêng tư để giữ an toàn cho dữ liệu của bạn.",
     img: "/assets/images/image1109.webp",
   },
-  {
-    img: "",
-    id: "digital-notes-accessible-from-anywhere",
-    title: "Digital notes, accessible from anywhere",
-    title_vn: "Ghi chú kỹ thuật số, truy cập từ mọi nơi",
-    desc: "Create and share notes, lists, photos, drawings, and audio to save your thoughts with Keep.",
-    desc_vn:
-      "Tạo và chia sẻ ghi chú, danh sách, ảnh, bản vẽ và âm thanh để lưu ý tưởng của bạn với Keep.",
-  },
+  // {
+  //   img: "",
+  //   id: "digital-notes-accessible-from-anywhere",
+  //   title: "Digital notes, accessible from anywhere",
+  //   title_vn: "Ghi chú kỹ thuật số, truy cập từ mọi nơi",
+  //   desc: "Create and share notes, lists, photos, drawings, and audio to save your thoughts with Keep.",
+  //   desc_vn:
+  //     "Tạo và chia sẻ ghi chú, danh sách, ảnh, bản vẽ và âm thanh để lưu ý tưởng của bạn với Keep.",
+  // },
 ];
 
 export { AI_powered_video_creation_for_work, VIDS_FEATURES };

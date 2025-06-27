@@ -78,9 +78,10 @@ export const FeatureHighlight = memo(
               <h3 className="w-full text-base font-semibold text-gray-900 mb-2 text-center">
                 {getText(b.title, b.title_vn)}
               </h3>
-              <p className="text-sm md:text-base text-gray-700 text-justify line-clamp-4 overflow-hidden">
-                {getText(b.desc, b.desc_vn)}
-              </p>
+              <p
+                className="text-sm md:text-base text-gray-700 text-justify line-clamp-4 overflow-hidden"
+                dangerouslySetInnerHTML={{ __html: getText(b.desc, b.desc_vn) }}
+              />
             </div>
           ))}
         </div>
