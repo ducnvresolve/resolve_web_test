@@ -132,7 +132,8 @@ const GoogleCloudContentComponent = ({ activeFeature, lng }: Props) => {
                   >
                     <img src={f.icon} alt={f.name} className="w-10 h-10 mb-2" />
                     <h2 className="text-xl font-bold text-center text-purple-700 mb-2">
-                      {lng === "vi" ? f.name_vn : f.name}
+                      {/* {lng === "vi" ? f.name_vn : f.name} */}
+                      {f.name}
                     </h2>
                     <p className="text-gray-700 text-justify mb-2 overflow-hidden text-ellipsis line-clamp-4">
                       {lng === "vi" ? f.desc_vn : f.desc}
@@ -151,7 +152,8 @@ const GoogleCloudContentComponent = ({ activeFeature, lng }: Props) => {
                 className="w-12 h-12 mb-2"
               />
               <h2 className="text-2xl font-bold text-center text-purple-700 mb-2">
-                {lng === "vi" ? feature.name_vn : feature.name}
+                {/* {lng === "vi" ? feature.name_vn : feature.name}\ */}
+                {feature.name}
               </h2>
               <p className="text-gray-700 text-center">
                 {lng === "vi" ? feature.desc_vn : feature.desc}

@@ -404,6 +404,7 @@ const GOOGLE_CLOUD_SECURITY_PRODUCTS: ITableCardContent[] = [
       "Tầm nhìn lớn hơn",
       "Tự động hóa nâng cao",
     ],
+    img: ["/assets/images/image1231.jpg"],
   },
   {
     product: "reCAPTCHA Enterprise",

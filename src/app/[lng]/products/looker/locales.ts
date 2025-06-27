@@ -1,19 +1,36 @@
-import type { Locale } from "@/types/locale.types";
-
 export const PAGE_NAME = "platform";
 
-export const localesPlatform: Locale[] = [
-  { text: "page.title" },
-  { text: "page.subtitle" },
-  { text: "learn-more" },
-
-  { text: "features.1.title" },
-  { text: "features.1.description" },
-  { text: "features.2.title" },
-  { text: "features.2.description" },
-  { text: "features.3.title" },
-  { text: "features.3.description" },
-
-  { text: "video.title" },
-  { text: "video.button" },
-];
+export const loookerMetadata = {
+  en: {
+    title: "Looker | resolve",
+    description:
+      "Unlock the power of Looker for modern business intelligence, data analytics, and interactive dashboards for your organization.",
+    keywords: [
+      "looker",
+      "business intelligence",
+      "data analytics",
+      "dashboard",
+      "reporting",
+      "resolve",
+      "data platform",
+      "cloud bi",
+      "data visualization",
+    ],
+  },
+  vi: {
+    title: "Looker | resolve",
+    description:
+      "Khai phá sức mạnh Looker cho phân tích dữ liệu hiện đại, BI và dashboard tương tác cho tổ chức của bạn.",
+    keywords: [
+      "looker",
+      "phân tích dữ liệu",
+      "business intelligence",
+      "báo cáo",
+      "dashboard",
+      "resolve",
+      "nền tảng dữ liệu",
+      "bi đám mây",
+      "trực quan hóa dữ liệu",
+    ],
+  },
+};
