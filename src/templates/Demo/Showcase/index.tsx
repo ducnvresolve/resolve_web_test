@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ChevronRight, MonitorPlay, MessageCircleQuestion } from "lucide-react";
@@ -12,6 +12,9 @@ export default function ShowcaseDemo({ params: { lng, t } }: BaseProps) {
   const ShowcaseDashboard = dynamic(() => import("./Dashboard"), {
     ssr: false,
   });
+  const [activeTab, setActiveTab] = useState<"ecommerce" | "healthcare">(
+    "ecommerce"
+  );
   const DEMO_LIST = [
     {
       icon: <MonitorPlay className="w-[100px] h-[100px] text-purple-700 p-3" />,
@@ -65,11 +68,26 @@ export default function ShowcaseDemo({ params: { lng, t } }: BaseProps) {
           </div>
         </div>
         <div className="w-full flex flex-col items-center bg-gray-100 border border-transparent border-t-gray-300 pb-[80px]">
+          {/* Tabs */}
+          <div className="w-full max-w-screen-xl flex flex-row gap-4 px-6 mt-4 mb-2">
+            <button
+              className={`px-4 py-2 rounded-t-lg font-bold border-b-2 ${activeTab === "ecommerce" ? "border-purple-600 text-purple-700 bg-white" : "border-transparent text-gray-500 bg-gray-100"}`}
+              onClick={() => setActiveTab("ecommerce")}
+            >
+              {lng === "vi" ? "Thương mại điện tử" : "Ecommerce"}
+            </button>
+            <button
+              className={`px-4 py-2 rounded-t-lg font-bold border-b-2 ${activeTab === "healthcare" ? "border-purple-600 text-purple-700 bg-white" : "border-transparent text-gray-500 bg-gray-100"}`}
+              onClick={() => setActiveTab("healthcare")}
+            >
+              {lng === "vi" ? "Chăm sóc sức khỏe" : "Healthcare"}
+            </button>
+          </div>
           <div
             id="showcase-dashboard"
-            className="w-full max-w-screen-xl flex flex-col md:flex-row justify-between gap-6 md:gap-12 px-6 -mt-[80px] animate-slideup-long-delayed"
+            className="w-full max-w-screen-xl flex flex-col md:flex-row justify-between gap-6 md:gap-12 px-6 animate-slideup-long-delayed"
           >
-            <ShowcaseDashboard params={{ lng, t }} />
+            <ShowcaseDashboard params={{ lng, t, tab: activeTab }} />
           </div>
           <div className="w-full max-w-screen-xl flex flex-col items-center mt-10 px-6 animate-slideup-long-very-delayed">
             <div className="w-full flex flex-col lg:flex-row items-center gap-6">

@@ -19,7 +19,7 @@ interface Props {
 }
 
 const ContentGridCardComponent = (props: Props) => {
-  const { content, lng, maxDescHeight = 250 } = props;
+  const { content, lng, maxDescHeight = 180 } = props;
   const [visible, setVisible] = useState<{ [key: number]: boolean }>({});
   const observerRef = useRef<IntersectionObserver | null>(null);
 

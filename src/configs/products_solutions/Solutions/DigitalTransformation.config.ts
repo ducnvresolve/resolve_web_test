@@ -24,7 +24,7 @@ export const DIGITAL_TRANSFORMATION_CONFIG: IContent = {
 export const DIGITAL_TRANSFORMATION_CONFIG1: IContent = {
   id: "phase-1-foundations",
   title: "Phase 1: Foundations – Digitizing Core Operations & Collaboration",
-  title_vn: "Pha 1: Nền tảng – Số hóa vận hành cốt lõi & hợp tác",
+  title_vn: "Giai đoạn 1: Nền tảng – Số hóa vận hành cốt lõi & hợp tác",
   desc: `
   `,
   desc_vn: ``,
@@ -118,7 +118,7 @@ export const DIGITAL_TRANSFORMATION_FEATURE_HIGHLIGHT: IContent = {
 export const DIGITAL_TRANSFORMATION_CONFIG2: IContent = {
   id: "phase-2-automation",
   title: "Phase 2: Automation & Process Optimization with Google Cloud",
-  title_vn: "Pha 2: Tự động hóa & tối ưu quy trình với Google Cloud",
+  title_vn: "Giai đoạn 2: Tự động hóa & tối ưu quy trình với Google Cloud",
   desc: `
   `,
   desc_vn: ``,
@@ -204,7 +204,7 @@ export const DIGITAL_TRANSFORMATION_FEATURE_HIGHLIGHT2: IContent = {
 export const DIGITAL_TRANSFORMATION_CONFIG3: IContent = {
   id: "phase-3-analytics",
   title: "Phase 3: Towards Data-Driven Decision Making",
-  title_vn: "Pha 3: Hướng tới ra quyết định dựa trên dữ liệu",
+  title_vn: "Giai đoạn 3: Hướng tới ra quyết định dựa trên dữ liệu",
   desc: `
   `,
   desc_vn: ``,
