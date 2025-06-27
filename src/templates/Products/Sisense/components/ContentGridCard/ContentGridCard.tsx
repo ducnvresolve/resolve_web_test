@@ -103,7 +103,7 @@ const ContentGridCardComponent = (props: Props) => {
                       }
                     >
                       <div
-                        className="text-base md:text-lg text-gray-700 text-justify"
+                        className="text-base  text-gray-700 text-justify"
                         dangerouslySetInnerHTML={{
                           __html: lng === "en" ? item.desc : item.desc_vn,
                         }}

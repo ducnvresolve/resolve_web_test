@@ -1,24 +1,33 @@
 "use client";
 
 import { memo, useMemo, useEffect, useRef, useState } from "react";
-import { Gmail } from "./components/Gmail/Gmail";
-import { GOOGLE_WORKSPACE_FEATURES } from "../../../configs/products_solutions/GoogleWorkspace/GoogleWorkspaceFeatures";
+
 import { useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
-import { Drive } from "./components/Drive/Drive";
-import { Meet } from "./components/Meet/Meet";
-import { Chat } from "./components/Chat/Chat";
-import { Calendar } from "./components/Calendar/Calendar";
-import { Docs } from "./components/Docs/Docs";
-import { Sheets } from "./components/Sheets/Sheets";
-import { Slides } from "./components/Slides/Slides";
-import { Forms } from "./components/Forms/Forms";
-import { Sites } from "./components/Sites/Sites";
-import { Gemini } from "./components/Gemini/Gemini";
-import { Vids } from "./components/Vids/Vids";
-import { NotebookLM } from "./components/NotebookLM/NotebookLM";
-import { Keep } from "./components/Keep/Keep";
-import { AppSheet } from "./components";
+import {
+  Gmail,
+  Admin,
+  AppSheet,
+  Drive,
+  Gemini,
+  Meet,
+  Keep,
+  NotebookLM,
+  Vids,
+  Chat,
+  Calendar,
+  Docs,
+  Sheets,
+  Slides,
+  Forms,
+  Sites,
+  EndpointManagement,
+  Voice,
+  Vault,
+  WorkInsights,
+} from "./components";
+import { GOOGLE_WORKSPACE_FEATURES } from "@/configs";
+import { AppsScript } from "./components/AppsScript";
 const TableOfContents = dynamic(
   () =>
     import("@/components/TableOfContents").then((mod) => mod.TableOfContents),
@@ -68,6 +77,18 @@ const GoogleWorkspaceContentComponent = ({ activeFeature, lng }: Props) => {
         return <Keep lng={lng} />;
       case "appsheet":
         return <AppSheet lng={lng} />;
+      case "admin":
+        return <Admin lng={lng} />;
+      case "endpoint-management":
+        return <EndpointManagement lng={lng} />;
+      case "vault":
+        return <Vault lng={lng} />;
+      case "voice":
+        return <Voice lng={lng} />;
+      case "appsscript":
+        return <AppsScript lng={lng} />;
+      case "work-insights":
+        return <WorkInsights lng={lng} />;
       default:
         return <></>;
     }

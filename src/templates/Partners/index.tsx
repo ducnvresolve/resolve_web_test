@@ -15,7 +15,7 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
     >
       <img
         src={"/images/sisense-logo.png"}
-        className="h-[60px] select-none"
+        className="h-[60px] max-w-full object-contain select-none"
         loading="lazy"
         alt="sisense-company"
       />
@@ -27,7 +27,7 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
     >
       <img
         src={"/assets/images/Google_2015_logo.svg.webp"}
-        className="h-[60px] select-none"
+        className="h-[60px] max-w-full object-contain select-none"
         loading="lazy"
         alt="sisense-company"
       />
@@ -39,7 +39,7 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
     >
       <img
         src={"/images/viettel-cloud.svg"}
-        className="h-[45px] select-none"
+        className="h-[45px] max-w-full object-contain select-none"
         loading="lazy"
         alt="sisense-company"
       />
@@ -47,13 +47,13 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
     <Link
       href="https://cloudaz.io/"
       target={"_blank"}
-      className="w-[500px] flex items-center justify-center p-6"
+      className="w-full flex items-center justify-center p-6"
     >
       <img
         src={"/images/cloudAZ.png"}
-        className="h-[60px] select-none"
+        className="h-[60px] max-w-full object-contain select-none"
         loading="lazy"
-        alt="sisense-company"
+        alt="cloudaz-company"
       />
     </Link>,
   ];
@@ -77,7 +77,7 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
                   __html: t[`partners.${i + 1}`] as string,
                 }}
               />
-              <div className="w-full max-w-[500px] h-[100px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
+              <div className="w-full max-w-full h-[100px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150 overflow-hidden">
                 {partnerLogo[i]}
               </div>
             </div>
@@ -94,71 +94,50 @@ export default function Partners({ params: { lng, t } }: BaseProps) {
             }}
           />
           <div className="w-full flex items-center flex-col md:flex-row md:flex-wrap gap-6 md:gap-[2%] md:gap-y-6">
-            <div className="w-full md:w-[32%] h-[100px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
-              <Link
-                href="https://dnbvietnam.com"
-                target={"_blank"}
-                className="w-full flex items-center justify-center p-6"
+            {[
+              {
+                href: "https://dnbvietnam.com",
+                src: "/images/dnbvietnam.jpg",
+                alt: "dnb-vietnam",
+              },
+              {
+                href: "https://www.vcci.com.vn",
+                src: "/images/vcci.jpg",
+                alt: "vcci",
+              },
+              {
+                href: "https://www.vinasa.org.vn",
+                src: "/images/vinasa.jpg",
+                alt: "vinasa",
+              },
+              {
+                href: "https://ciovn.org",
+                src: "/images/partners/cioVN.png",
+                alt: "cioVN",
+              },
+              {
+                href: "https://hanoiba.org.vn/",
+                src: "/images/partners/hanoiBA.png",
+                alt: "hanoiBA",
+              },
+            ].map((item) => (
+              <div
+                key={item.href}
+                className="w-full md:w-[32%] bg-white p-2 h-[100px] md:h-[120px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150"
               >
-                <img
-                  src="/images/dnbvietnam.jpg"
-                  className="h-full select-none"
-                  alt="dnb-vietnam"
-                />
-              </Link>
-            </div>
-            <div className="w-full md:w-[32%] h-[100px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
-              <Link
-                href="https://www.vcci.com.vn"
-                target={"_blank"}
-                className="w-full flex items-center justify-center p-6"
-              >
-                <img
-                  src="/images/vcci.jpg"
-                  className="h-[60px] select-none"
-                  alt="dnb-vietnam"
-                />
-              </Link>
-            </div>
-            <div className="w-full md:w-[32%] h-[100px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
-              <Link
-                href="https://www.vinasa.org.vn"
-                target={"_blank"}
-                className="w-full flex items-center justify-center p-6"
-              >
-                <img
-                  src="/images/vinasa.jpg"
-                  className="h-full select-none"
-                  alt="dnb-vietnam"
-                />
-              </Link>
-            </div>
-            <div className="w-full md:w-[32%] bg-white p-2 h-[80px] sm:h-[80px] md:h-[100px] lg:h-[120px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
-              <Link
-                href="https://ciovn.org"
-                target={"_blank"}
-                className="w-full h-full flex items-center justify-center"
-              >
-                <img
-                  src="/images/partners/cioVN.png"
-                  className="max-h-full max-w-full object-contain select-none"
-                  alt="cioVN"
-                />
-              </Link>
-            </div>
-            <div className="w-full md:w-[32%] bg-white p-2 h-[80px] sm:h-[80px] md:h-[100px] lg:h-[120px] flex items-center justify-center border-2 rounded-lg hover:border-purple-600 duration-150">
-              <Link
-                href="https://hanoiba.org.vn/"
-                target={"_blank"}
-                className="w-full h-full flex items-center justify-center"
-              >
-                <img
-                  src="/images/partners/hanoiBA.png"
-                  className="max-h-full max-w-full object-contain select-none"
-                  alt="hanoiBA"
-                />
-              </Link>
-            </div>
+                <Link
+                  href={item.href}
+                  target="_blank"
+                  className="w-full h-full flex items-center justify-center"
+                >
+                  <img
+                    src={item.src}
+                    className="max-h-full max-w-full object-contain select-none"
+                    alt={item.alt}
+                  />
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>

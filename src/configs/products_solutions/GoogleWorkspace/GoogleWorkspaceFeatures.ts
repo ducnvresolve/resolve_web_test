@@ -143,6 +143,54 @@ const GOOGLE_WORKSPACE_FEATURES: IFeature[] = [
     desc: "Applications and automation workflows without coding",
     desc_vn: "Ứng dụng và quy trình làm việc tự động hóa mà không cần viết mã",
   },
+  {
+    slug: "admin",
+    icon: "/images/google-workspace/admin.svg",
+    name: "Admin",
+    desc: "Easily add users, manage devices, and configure security and settings so your data stays safe. Administration shouldn't need a manual.",
+    desc_vn:
+      "Dễ dàng thêm người dùng, quản lý thiết bị và cấu hình bảo mật và cài đặt để dữ liệu của bạn an toàn. Quản trị không cần thiết phải là tay máy.",
+  },
+  {
+    slug: "endpoint-management",
+    icon: "/images/google-workspace/endpoint-management.svg",
+    name: "Endpoint Management",
+    desc: "Keep things simple—and moving. Endpoint management for Android, iOS, Windows, Chrome OS, MacOS, and Linux is easy to set up and use.",
+    desc_vn:
+      "Giữ thứ tự đơn giản—và di chuyển. Quản lý điểm cuối cho Android, iOS, Windows, Chrome OS, MacOS và Linux dễ dàng thiết lập và sử dụng.",
+  },
+  {
+    slug: "vault",
+    icon: "/images/google-workspace/vault.svg",
+    name: "Vault",
+    desc: "Keep track of what matters. Retain, search, and export your organization’s data from select apps with Vault for Google Workspace Business and Enterprise editions.",
+    desc_vn:
+      "Giữ theo dõi những điều quan trọng. Giữ lại, tìm kiếm và xuất dữ liệu của tổ chức của bạn từ các ứng dụng được lựa chọn với Vault cho Google Workspace Business và Enterprise.",
+  },
+  {
+    slug: "voice",
+    icon: "/images/google-workspace/voice.svg",
+    name: "Voice",
+    desc: "Stay connected and save time with an easy-to-use business phone solution that fits organizations of any size.",
+    desc_vn:
+      "Duy trì kết nối và tiết kiệm thời gian với giải pháp điện thoại kinh doanh dễ sử dụng phù hợp với tất cả các tổ chức.",
+  },
+  {
+    slug: "appsscript",
+    icon: "/images/google-workspace/appsscript.svg",
+    name: "AppsScript",
+    desc: "Apps Script is the only low-code platform that makes it quick and easy to build business solutions that integrate, automate, and extend Google Workspace. With Apps Script, business users can build custom solutions on top of Google Workspace —no professional development experience required. Apps Script is available to everyone with a Gmail account.",
+    desc_vn:
+      "Apps Script là nền tảng low-code duy nhất làm cho việc xây dựng giải pháp kinh doanh nhanh chóng và dễ dàng, tích hợp, tự động hóa và mở rộng Google Workspace. Với Apps Script, người dùng kinh doanh có thể xây dựng các giải pháp tùy chỉnh trên Google Workspace — không cần kinh nghiệm phát triển chuyên sâu. Apps Script có sẵn cho tất cả mọi người với tài khoản Gmail.",
+  },
+  {
+    slug: "work-insights",
+    icon: "/images/google-workspace/WorkInsights.svg",
+    name: "WorkInsights",
+    desc: "Understand how Google Workspace impacts your organization in real time. Surface insights on adoption, work patterns, and collaboration across different Google Workspace apps.",
+    desc_vn:
+      "Hiểu rõ cách Google Workspace ảnh hưởng đến tổ chức của bạn trong thời gian thực. Hiển thị các thông tin về sự chấp thuận, mẫu làm việc và cộng tác trên các ứng dụng Google Workspace khác nhau.",
+  },
 ];
 
 export { GOOGLE_WORKSPACE_FEATURES };
