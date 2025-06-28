@@ -84,7 +84,7 @@ const nextConfig = {
 
   // Performance optimizations
   experimental: {
-    optimizeCss: true,
+    // optimizeCss: true, // Tắt tạm thời do lỗi critters
     optimizePackageImports: ["@mui/material", "@mui/icons-material"],
   },
 
